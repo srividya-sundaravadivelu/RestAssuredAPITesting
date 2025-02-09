@@ -1,4 +1,0 @@
-{
-    "status": "400 BAD_REQUEST",
-    "message": "State should contain alphabet characters only"
-}

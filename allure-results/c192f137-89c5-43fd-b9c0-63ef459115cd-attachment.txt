@@ -1,4 +1,0 @@
-{
-    "status": "404 NOT_FOUND",
-    "message": "User not found with id: 19747"
-}

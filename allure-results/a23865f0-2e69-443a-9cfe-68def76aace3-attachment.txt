@@ -1,6 +1,0 @@
-{
-    "timestamp": "2025-02-09T18:40:32.039+00:00",
-    "status": 404,
-    "error": "Not Found",
-    "path": "/uap/invalid/19747"
-}

@@ -1,4 +1,0 @@
-{
-    "status": "409 CONFLICT",
-    "message": "User already exist with same contact number"
-}

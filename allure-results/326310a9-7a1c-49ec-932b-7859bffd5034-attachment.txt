@@ -1,4 +1,0 @@
-{
-    "status": "400 BAD_REQUEST",
-    "message": "Country should contain alphabet characters only"
-}

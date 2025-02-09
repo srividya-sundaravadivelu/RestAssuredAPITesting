@@ -1,6 +1,0 @@
-{
-    "timestamp": "2025-02-09T18:40:13.402+00:00",
-    "status": 400,
-    "error": "Bad Request",
-    "path": "/uap/createusers"
-}
