@@ -1,0 +1,4 @@
+{
+    "status": "400 BAD_REQUEST",
+    "message": "Plot number should contain alphaNumeric values only"
+}

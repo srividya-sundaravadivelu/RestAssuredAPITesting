@@ -1,0 +1,4 @@
+{
+    "status": "400 BAD_REQUEST",
+    "message": "Phone Number is required and should contains 10 numeric values only"
+}

@@ -1,0 +1,4 @@
+{
+    "status": "400 BAD_REQUEST",
+    "message": "user FirstName is mandatory and should contains alphabets only"
+}

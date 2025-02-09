@@ -1,0 +1,35 @@
+{ 
+    "type": "object",
+    "properties": {
+        "userAddress": {
+            "type": "object",
+            "properties": {
+                "addressId": { "type": "integer" },
+                "plotNumber": { "type": ["string", "null"] },
+                "street": { "type": ["string", "null"] },
+                "state": { "type": ["string", "null"] },
+                "country": { "type": ["string", "null"] },
+                "zipCode": { "type": ["integer", "null"] }
+            },
+            "required": ["addressId", "plotNumber", "street", "state", "country", "zipCode"]
+        },
+        "user_id": { "type": "integer" },
+        "user_first_name": { "type": "string" },
+        "user_last_name": { "type": "string" },
+        "user_contact_number": { "type": "integer" },
+        "user_email_id": { "type": "string", "format": "email" },
+        "creation_time": { "type": "string", "format": "date-time" },
+        "last_mod_time": { "type": "string", "format": "date-time" }
+    },
+    "required": [
+        "userAddress",
+        "user_id",
+        "user_first_name",
+        "user_last_name",
+        "user_contact_number",
+        "user_email_id",
+        "creation_time",
+        "last_mod_time"
+    ]
+}
+		

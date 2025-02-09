@@ -1,0 +1,4 @@
+{
+    "status": "400 BAD_REQUEST",
+    "message": "Contact number is already in use by another user"
+}

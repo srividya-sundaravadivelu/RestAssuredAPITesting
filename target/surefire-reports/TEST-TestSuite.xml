@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="37.996" tests="48" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\srivi\eclipse-workspace\RestAssuredAPITesting\target\test-classes;C:\Users\srivi\eclipse-workspace\RestAssuredAPITesting\target\classes;C:\Users\srivi\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\srivi\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\srivi\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\srivi\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\srivi\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\srivi\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\srivi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\srivi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\srivi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\srivi\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\srivi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\srivi\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\srivi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\srivi\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\srivi\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\srivi\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\srivi\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\srivi\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\srivi\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\srivi\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\srivi\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\srivi\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.2\jackson-datatype-jsr310-2.18.2.jar;C:\Users\srivi\.m2\repository\io\rest-assured\json-schema-validator\5.5.0\json-schema-validator-5.5.0.jar;C:\Users\srivi\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\srivi\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\srivi\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\srivi\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\srivi\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\srivi\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\srivi\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\srivi\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\srivi\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\srivi\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\srivi\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\srivi\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\srivi\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\srivi\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\srivi\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\srivi\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\srivi\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\srivi\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\srivi\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\srivi\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\srivi\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\srivi\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\srivi\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\srivi\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\srivi\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\srivi\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\srivi\.m2\repository\org\slf4j\slf4j-simple\2.0.7\slf4j-simple-2.0.7.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
+    <property name="sun.java.command" value="C:\Users\srivi\AppData\Local\Temp\surefire309773745028914702\surefirebooter-20250209123957615_3.jar C:\Users\srivi\AppData\Local\Temp\surefire309773745028914702 2025-02-09T12-39-57_417-jvmRun1 surefire-20250209123957615_1tmp surefire_0-20250209123957615_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\srivi\eclipse-workspace\RestAssuredAPITesting\target\test-classes;C:\Users\srivi\eclipse-workspace\RestAssuredAPITesting\target\classes;C:\Users\srivi\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\srivi\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\srivi\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\srivi\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\srivi\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\srivi\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\srivi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\srivi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\srivi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\srivi\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\srivi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\srivi\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\srivi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\srivi\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\srivi\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\srivi\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\srivi\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\srivi\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\srivi\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\srivi\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\srivi\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\srivi\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.2\jackson-datatype-jsr310-2.18.2.jar;C:\Users\srivi\.m2\repository\io\rest-assured\json-schema-validator\5.5.0\json-schema-validator-5.5.0.jar;C:\Users\srivi\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\srivi\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\srivi\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\srivi\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\srivi\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\srivi\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\srivi\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\srivi\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\srivi\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\srivi\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\srivi\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\srivi\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\srivi\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\srivi\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\srivi\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\srivi\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\srivi\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\srivi\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\srivi\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\srivi\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\srivi\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\srivi\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\srivi\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\srivi\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\srivi\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\srivi\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\srivi\.m2\repository\org\slf4j\slf4j-simple\2.0.7\slf4j-simple-2.0.7.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\srivi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-22"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\srivi\eclipse-workspace\RestAssuredAPITesting"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\srivi\AppData\Local\Temp\surefire309773745028914702\surefirebooter-20250209123957615_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.2+9-70"/>
+    <property name="user.name" value="srivi"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\srivi\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\srivi\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.2"/>
+    <property name="user.dir" value="C:\Users\srivi\eclipse-workspace\RestAssuredAPITesting"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-22/bin/server;C:/Program Files/Java/jdk-22/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\srivi\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-22\bin;C:\Users\srivi\Downloads\allure-2.30.0\allure-2.30.0\bin;C:\Program Files\PostgreSQL\17\bin;C:\Program Files\nodejs\;C:\Users\srivi\AppData\Local\Programs\Python\Python313;C:\Users\srivi\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\srivi\AppData\Local\Programs\Python\Launcher\;C:\Users\srivi\AppData\Local\Microsoft\WindowsApps;C:\Users\srivi\AppData\Local\GitHubDesktop\bin;C:\Users\srivi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\srivi\.dotnet\tools;C:\Users\srivi\AppData\Roaming\npm;;C:\WINDOWS\system32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.2+9-70"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="testGetUsers[{country=, zipCode=, user_last_name=, expected_status_line=OK, RequestName=GetUsers, ﻿Method=GET, expected_status_code=200, userId=, Scenario=Get all users - valid, user_contact_number=, endpoint=uap/users, user_first_name=, user_email_id=, street=, plotNumber=, state=}](1)" classname="tests.UserTests" time="6.803">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:05.695 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/users
+[INFO ] 2025-02-09 12:40:05.699 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:05.737 [main] LogHelper - Get All Users successful
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUsers[{country=, zipCode=, user_last_name=, expected_status_line=HTTP/1.1 404, RequestName=GetUsers, ﻿Method=GET, expected_status_code=404, userId=, Scenario=Get all users - invalid endpoint, user_contact_number=, endpoint=uap/invalid, user_first_name=, user_email_id=, street=, plotNumber=, state=}](2)" classname="tests.UserTests" time="0.464">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:08.851 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/invalid
+[INFO ] 2025-02-09 12:40:08.852 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:08.853 [main] LogHelper - Response: {
+    "timestamp": "2025-02-09T18:40:07.394+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/uap/invalid"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateNewUser[{country=USA, zipCode=61115, user_last_name=Deleteuser, expected_status_line=Created, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=201, userId=, Scenario=Create new user to use for delete, user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=Deleteuser, user_email_id=GENERATE_IN_CODE, street=Waldo Ave, plotNumber=3-A, state=Illinois}](1)" classname="tests.UserTests" time="1.634">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:09.508 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers
+[INFO ] 2025-02-09 12:40:09.509 [main] LogHelper - Request Body: {"user_first_name":"Deleteuser","user_last_name":"Deleteuser","user_contact_number":"9880541154","user_email_id":"kjcuty55@gmail.com","userAddress":{"plotNumber":"3-A","street":"Waldo Ave","state":"Illinois","country":"USA","zipCode":"61115","addressId":null},"user_id":null}
+[INFO ] 2025-02-09 12:40:09.511 [main] LogHelper - Response: {
+    "userAddress": {
+        "addressId": 19713,
+        "plotNumber": "3-A",
+        "street": "Waldo Ave",
+        "state": "Illinois",
+        "country": "USA",
+        "zipCode": 61115
+    },
+    "user_id": 19746,
+    "user_first_name": "Deleteuser",
+    "user_last_name": "Deleteuser",
+    "user_contact_number": 9880541154,
+    "user_email_id": "kjcuty55@gmail.com",
+    "creation_time": "2025-02-09T18:40:08.045+00:00",
+    "last_mod_time": "2025-02-09T18:40:08.045+00:00"
+}
+[INFO ] 2025-02-09 12:40:10.271 [main] LogHelper - Created User ID: 19746
+[INFO ] 2025-02-09 12:40:10.292 [main] LogHelper - Created User First Name: Deleteuser
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateNewUser[{country=USA, zipCode=61115, user_last_name=Sundaravadivelu, expected_status_line=Created, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=201, userId=, Scenario=Pass all fields  , user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=GENERATE_IN_CODE, street=Waldo Ave, plotNumber=3-A, state=Illinois}](2)" classname="tests.UserTests" time="0.522">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:10.888 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers
+[INFO ] 2025-02-09 12:40:10.888 [main] LogHelper - Request Body: {"user_first_name":"Srividya","user_last_name":"Sundaravadivelu","user_contact_number":"2931293443","user_email_id":"oznnpx91@gmail.com","userAddress":{"plotNumber":"3-A","street":"Waldo Ave","state":"Illinois","country":"USA","zipCode":"61115","addressId":null},"user_id":null}
+[INFO ] 2025-02-09 12:40:10.889 [main] LogHelper - Response: {
+    "userAddress": {
+        "addressId": 19714,
+        "plotNumber": "3-A",
+        "street": "Waldo Ave",
+        "state": "Illinois",
+        "country": "USA",
+        "zipCode": 61115
+    },
+    "user_id": 19747,
+    "user_first_name": "Srividya",
+    "user_last_name": "Sundaravadivelu",
+    "user_contact_number": 2931293443,
+    "user_email_id": "oznnpx91@gmail.com",
+    "creation_time": "2025-02-09T18:40:09.429+00:00",
+    "last_mod_time": "2025-02-09T18:40:09.429+00:00"
+}
+[INFO ] 2025-02-09 12:40:10.901 [main] LogHelper - Created User ID: 19747
+[INFO ] 2025-02-09 12:40:10.911 [main] LogHelper - Created User First Name: Srividya
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateNewUser[{country=, zipCode=null, user_last_name=Sundaravadivelu, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=First name empty, user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=&quot;&quot;&quot;&quot;&quot;&quot;, user_email_id=GENERATE_IN_CODE, street=, plotNumber=, state=}](3)" classname="tests.UserTests" time="0.392">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:11.426 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers
+[INFO ] 2025-02-09 12:40:11.426 [main] LogHelper - Request Body: {"user_first_name":"\"\"\"\"\"\"","user_last_name":"Sundaravadivelu","user_contact_number":"5028065222","user_email_id":"nxfsnk83@gmail.com","userAddress":{"plotNumber":"","street":"","state":"","country":"","zipCode":"null","addressId":null},"user_id":null}
+[INFO ] 2025-02-09 12:40:11.427 [main] LogHelper - Response: {
+    "status": "400 BAD_REQUEST",
+    "message": "user FirstName is mandatory and should contains alphabets only"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateNewUser[{country=, zipCode=null, user_last_name=Sundaravadivelu, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=First name non alphabet value, user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=Srividya$, user_email_id=GENERATE_IN_CODE, street=, plotNumber=, state=}](4)" classname="tests.UserTests" time="0.367">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:11.811 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers
+[INFO ] 2025-02-09 12:40:11.811 [main] LogHelper - Request Body: {"user_first_name":"Srividya$","user_last_name":"Sundaravadivelu","user_contact_number":"8946300201","user_email_id":"qfpqwf87@gmail.com","userAddress":{"plotNumber":"","street":"","state":"","country":"","zipCode":"null","addressId":null},"user_id":null}
+[INFO ] 2025-02-09 12:40:11.812 [main] LogHelper - Response: {
+    "status": "400 BAD_REQUEST",
+    "message": "user FirstName is mandatory and should contains alphabets only"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateNewUser[{country=, zipCode=null, user_last_name=&quot;&quot;&quot;&quot;&quot;&quot;, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=Last name empty, user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=GENERATE_IN_CODE, street=, plotNumber=, state=}](5)" classname="tests.UserTests" time="0.379">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:12.195 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers
+[INFO ] 2025-02-09 12:40:12.196 [main] LogHelper - Request Body: {"user_first_name":"Srividya","user_last_name":"\"\"\"\"\"\"","user_contact_number":"6701926961","user_email_id":"lgfkmk95@gmail.com","userAddress":{"plotNumber":"","street":"","state":"","country":"","zipCode":"null","addressId":null},"user_id":null}
+[INFO ] 2025-02-09 12:40:12.196 [main] LogHelper - Response: {
+    "status": "400 BAD_REQUEST",
+    "message": "User Last Name is mandatory and should contains alphabets only"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateNewUser[{country=, zipCode=null, user_last_name=Sundaravadivelu$, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=Last name non alphabet value, user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=GENERATE_IN_CODE, street=, plotNumber=, state=}](6)" classname="tests.UserTests" time="0.385">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:12.583 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers
+[INFO ] 2025-02-09 12:40:12.583 [main] LogHelper - Request Body: {"user_first_name":"Srividya","user_last_name":"Sundaravadivelu$","user_contact_number":"3665078533","user_email_id":"ngegle54@gmail.com","userAddress":{"plotNumber":"","street":"","state":"","country":"","zipCode":"null","addressId":null},"user_id":null}
+[INFO ] 2025-02-09 12:40:12.584 [main] LogHelper - Response: {
+    "status": "400 BAD_REQUEST",
+    "message": "User Last Name is mandatory and should contains alphabets only"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateNewUser[{country=, zipCode=null, user_last_name=Sundaravadivelu, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=Email id empty, user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=&quot;&quot;&quot;&quot;&quot;&quot;, street=, plotNumber=, state=}](7)" classname="tests.UserTests" time="0.383">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:12.971 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers
+[INFO ] 2025-02-09 12:40:12.971 [main] LogHelper - Request Body: {"user_first_name":"Srividya","user_last_name":"Sundaravadivelu","user_contact_number":"3657002308","user_email_id":"\"\"\"\"\"\"","userAddress":{"plotNumber":"","street":"","state":"","country":"","zipCode":"null","addressId":null},"user_id":null}
+[INFO ] 2025-02-09 12:40:12.972 [main] LogHelper - Response: {
+    "status": "400 BAD_REQUEST",
+    "message": "User email Id is required and should be in proper email format"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateNewUser[{country=, zipCode=null, user_last_name=Sundaravadivelu, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=Email id invalid, user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=abc@@abc.com, street=, plotNumber=, state=}](8)" classname="tests.UserTests" time="0.344">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:13.320 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers
+[INFO ] 2025-02-09 12:40:13.320 [main] LogHelper - Request Body: {"user_first_name":"Srividya","user_last_name":"Sundaravadivelu","user_contact_number":"8051490434","user_email_id":"abc@@abc.com","userAddress":{"plotNumber":"","street":"","state":"","country":"","zipCode":"null","addressId":null},"user_id":null}
+[INFO ] 2025-02-09 12:40:13.321 [main] LogHelper - Response: {
+    "status": "400 BAD_REQUEST",
+    "message": "User email Id is required and should be in proper email format"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateNewUser[{country=, zipCode=null, user_last_name=Sundaravadivelu, expected_status_line=Conflict, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=409, userId=, Scenario=Email id already exists, user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=Numpy@gmail.com, street=, plotNumber=, state=}](9)" classname="tests.UserTests" time="0.42">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:13.745 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers
+[INFO ] 2025-02-09 12:40:13.745 [main] LogHelper - Request Body: {"user_first_name":"Srividya","user_last_name":"Sundaravadivelu","user_contact_number":"7264398264","user_email_id":"Numpy@gmail.com","userAddress":{"plotNumber":"","street":"","state":"","country":"","zipCode":"null","addressId":null},"user_id":null}
+[INFO ] 2025-02-09 12:40:13.746 [main] LogHelper - Response: {
+    "status": "409 CONFLICT",
+    "message": "User already exist with same email id"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateNewUser[{country=, zipCode=null, user_last_name=Sundaravadivelu, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=Contact number is null or empty, user_contact_number=null, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=GENERATE_IN_CODE, street=, plotNumber=, state=}](10)" classname="tests.UserTests" time="0.361">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:14.108 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers
+[INFO ] 2025-02-09 12:40:14.108 [main] LogHelper - Request Body: {"user_first_name":"Srividya","user_last_name":"Sundaravadivelu","user_contact_number":"null","user_email_id":"skypqb36@gmail.com","userAddress":{"plotNumber":"","street":"","state":"","country":"","zipCode":"null","addressId":null},"user_id":null}
+[INFO ] 2025-02-09 12:40:14.109 [main] LogHelper - Response: {
+    "status": "400 BAD_REQUEST",
+    "message": "Phone Number is required and should contains 10 numeric values only"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateNewUser[{country=, zipCode=null, user_last_name=Sundaravadivelu, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=Contact number less than 10 numeric values, user_contact_number=123, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=GENERATE_IN_CODE, street=, plotNumber=, state=}](11)" classname="tests.UserTests" time="0.371">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:14.482 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers
+[INFO ] 2025-02-09 12:40:14.482 [main] LogHelper - Request Body: {"user_first_name":"Srividya","user_last_name":"Sundaravadivelu","user_contact_number":"123","user_email_id":"nrkzyk18@gmail.com","userAddress":{"plotNumber":"","street":"","state":"","country":"","zipCode":"null","addressId":null},"user_id":null}
+[INFO ] 2025-02-09 12:40:14.483 [main] LogHelper - Response: {
+    "status": "400 BAD_REQUEST",
+    "message": "Phone Number is required and should contains 10 numeric values only"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateNewUser[{country=, zipCode=null, user_last_name=Sundaravadivelu, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=Contact number greater than 10 numeric values, user_contact_number=1.23E+14, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=GENERATE_IN_CODE, street=, plotNumber=, state=}](12)" classname="tests.UserTests" time="0.373">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:14.857 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers
+[INFO ] 2025-02-09 12:40:14.858 [main] LogHelper - Request Body: {"user_first_name":"Srividya","user_last_name":"Sundaravadivelu","user_contact_number":"1.23E+14","user_email_id":"accsem79@gmail.com","userAddress":{"plotNumber":"","street":"","state":"","country":"","zipCode":"null","addressId":null},"user_id":null}
+[INFO ] 2025-02-09 12:40:14.859 [main] LogHelper - Response: {
+    "timestamp": "2025-02-09T18:40:13.402+00:00",
+    "status": 400,
+    "error": "Bad Request",
+    "path": "/uap/createusers"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateNewUser[{country=, zipCode=null, user_last_name=Sundaravadivelu, expected_status_line=Conflict, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=409, userId=, Scenario=Contact number already exists, user_contact_number=1234567891, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=GENERATE_IN_CODE, street=, plotNumber=, state=}](13)" classname="tests.UserTests" time="0.36">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:15.226 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers
+[INFO ] 2025-02-09 12:40:15.226 [main] LogHelper - Request Body: {"user_first_name":"Srividya","user_last_name":"Sundaravadivelu","user_contact_number":"1234567891","user_email_id":"xjhzmf56@gmail.com","userAddress":{"plotNumber":"","street":"","state":"","country":"","zipCode":"null","addressId":null},"user_id":null}
+[INFO ] 2025-02-09 12:40:15.226 [main] LogHelper - Response: {
+    "status": "409 CONFLICT",
+    "message": "User already exist with same contact number"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateNewUser[{country=, zipCode=null, user_last_name=Sundaravadivelu, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=State non alphabet value, user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=GENERATE_IN_CODE, street=, plotNumber=, state=$Illinois}](14)" classname="tests.UserTests" time="0.38">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:15.607 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers
+[INFO ] 2025-02-09 12:40:15.607 [main] LogHelper - Request Body: {"user_first_name":"Srividya","user_last_name":"Sundaravadivelu","user_contact_number":"6364117791","user_email_id":"alulga48@gmail.com","userAddress":{"plotNumber":"","street":"","state":"$Illinois","country":"","zipCode":"null","addressId":null},"user_id":null}
+[INFO ] 2025-02-09 12:40:15.608 [main] LogHelper - Response: {
+    "status": "400 BAD_REQUEST",
+    "message": "Plot number should contain alphaNumeric values only"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateNewUser[{country=$USA, zipCode=null, user_last_name=Sundaravadivelu, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=Country non alphabet value, user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=GENERATE_IN_CODE, street=, plotNumber=, state=}](15)" classname="tests.UserTests" time="0.367">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:15.980 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers
+[INFO ] 2025-02-09 12:40:15.980 [main] LogHelper - Request Body: {"user_first_name":"Srividya","user_last_name":"Sundaravadivelu","user_contact_number":"7116747434","user_email_id":"bkeguq46@gmail.com","userAddress":{"plotNumber":"","street":"","state":"","country":"$USA","zipCode":"null","addressId":null},"user_id":null}
+[INFO ] 2025-02-09 12:40:15.980 [main] LogHelper - Response: {
+    "status": "400 BAD_REQUEST",
+    "message": "Plot number should contain alphaNumeric values only"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateNewUser[{country=, zipCode=null, user_last_name=Sundaravadivelu, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=Street non alphabet vaue, user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=GENERATE_IN_CODE, street=$Waldo, plotNumber=, state=}](16)" classname="tests.UserTests" time="0.395">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:16.382 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers
+[INFO ] 2025-02-09 12:40:16.382 [main] LogHelper - Request Body: {"user_first_name":"Srividya","user_last_name":"Sundaravadivelu","user_contact_number":"4140713858","user_email_id":"bufkty82@gmail.com","userAddress":{"plotNumber":"","street":"$Waldo","state":"","country":"","zipCode":"null","addressId":null},"user_id":null}
+[INFO ] 2025-02-09 12:40:16.382 [main] LogHelper - Response: {
+    "status": "400 BAD_REQUEST",
+    "message": "Plot number should contain alphaNumeric values only"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateNewUser[{country=, zipCode=611ABC, user_last_name=Sundaravadivelu, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=ZipCode non numeric values, user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=, street=, plotNumber=, state=}](17)" classname="tests.UserTests" time="0.383">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:16.770 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/createusers
+[INFO ] 2025-02-09 12:40:16.770 [main] LogHelper - Request Body: {"user_first_name":"Srividya","user_last_name":"Sundaravadivelu","user_contact_number":"9482879602","user_email_id":"","userAddress":{"plotNumber":"","street":"","state":"","country":"","zipCode":"611ABC","addressId":null},"user_id":null}
+[INFO ] 2025-02-09 12:40:16.770 [main] LogHelper - Response: {
+    "timestamp": "2025-02-09T18:40:15.315+00:00",
+    "status": 400,
+    "error": "Bad Request",
+    "path": "/uap/createusers"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateNewUser[{country=, zipCode=, user_last_name=, expected_status_line=Not Found, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=404, userId=, Scenario=invalid endpoint, user_contact_number=, endpoint=uap/invalid, user_first_name=, user_email_id=, street=, plotNumber=, state=}](18)" classname="tests.UserTests" time="0.483">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:17.251 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/invalid
+[INFO ] 2025-02-09 12:40:17.252 [main] LogHelper - Request Body: {"user_first_name":"","user_last_name":"","user_contact_number":"","user_email_id":"","userAddress":{"plotNumber":"","street":"","state":"","country":"","zipCode":"","addressId":null},"user_id":null}
+[INFO ] 2025-02-09 12:40:17.253 [main] LogHelper - Response: {
+    "timestamp": "2025-02-09T18:40:15.794+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/uap/invalid"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserById[{country=, zipCode=, user_last_name=, expected_status_line=OK, RequestName=GetUserByID, ﻿Method=GET, expected_status_code=200, userId=, Scenario=Get user by id  - valid, user_contact_number=, endpoint=uap/user, user_first_name=, user_email_id=, street=, plotNumber=, state=}](1)" classname="tests.UserTests" time="0.371">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:17.624 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/user/{userId}
+[INFO ] 2025-02-09 12:40:17.624 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:17.624 [main] LogHelper - Response: {
+    "userAddress": {
+        "addressId": 19714,
+        "plotNumber": "3-A",
+        "street": "Waldo Ave",
+        "state": "Illinois",
+        "country": "USA",
+        "zipCode": 61115
+    },
+    "user_id": 19747,
+    "user_first_name": "Srividya",
+    "user_last_name": "Sundaravadivelu",
+    "user_contact_number": 2931293443,
+    "user_email_id": "oznnpx91@gmail.com",
+    "creation_time": "2025-02-09T18:40:09.429+00:00",
+    "last_mod_time": "2025-02-09T18:40:09.429+00:00"
+}
+[INFO ] 2025-02-09 12:40:17.625 [main] LogHelper - Get user details for ID: 19747
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserById[{country=, zipCode=, user_last_name=, expected_status_line=Not Found, RequestName=GetUserByID, ﻿Method=GET, expected_status_code=404, userId=, Scenario=Get user by id- invalid endpoint, user_contact_number=, endpoint=uap/invalid, user_first_name=, user_email_id=, street=, plotNumber=, state=}](2)" classname="tests.UserTests" time="0.359">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:18.002 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/invalid/{userId}
+[INFO ] 2025-02-09 12:40:18.002 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:18.003 [main] LogHelper - Response: {
+    "timestamp": "2025-02-09T18:40:16.548+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/uap/invalid/19747"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserByFirstName[{country=, zipCode=, user_last_name=, expected_status_line=OK, RequestName=GetUserByFirstName, ﻿Method=GET, expected_status_code=200, userId=, Scenario=Get user by firstname - valid, user_contact_number=, endpoint=uap/users/username, user_first_name=, user_email_id=, street=, plotNumber=, state=}](1)" classname="tests.UserTests" time="0.459">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:18.430 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/users/username/{userName}
+[INFO ] 2025-02-09 12:40:18.431 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:18.432 [main] LogHelper - Get user details for first name: Srividya
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserByFirstName[{country=, zipCode=, user_last_name=, expected_status_line=Not Found, RequestName=GetUserByFirstName, ﻿Method=GET, expected_status_code=404, userId=, Scenario=Get user by firstname- invalid endpoint, user_contact_number=, endpoint=uap/invalid, user_first_name=, user_email_id=, street=, plotNumber=, state=}](2)" classname="tests.UserTests" time="0.366">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:18.849 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/invalid/{userName}
+[INFO ] 2025-02-09 12:40:18.851 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:18.852 [main] LogHelper - Response: {
+    "timestamp": "2025-02-09T18:40:17.394+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/uap/invalid/Srividya"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[{country=USA Updated, zipCode=11111, user_last_name=Sundaravadivelu Updated, expected_status_line=OK, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=200, userId=, Scenario=Update all fields, user_contact_number=GENERATE_IN_CODE, endpoint=uap/updateuser, user_first_name=Srividya Updated, user_email_id=GENERATE_IN_CODE, street=Waldo Ave Updated, plotNumber=3-A, state=Illinois Updated}](1)" classname="tests.UserTests" time="0.947">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:19.222 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/user/{userId}
+[INFO ] 2025-02-09 12:40:19.223 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:19.223 [main] LogHelper - Response: {
+    "userAddress": {
+        "addressId": 19714,
+        "plotNumber": "3-A",
+        "street": "Waldo Ave",
+        "state": "Illinois",
+        "country": "USA",
+        "zipCode": 61115
+    },
+    "user_id": 19747,
+    "user_first_name": "Srividya",
+    "user_last_name": "Sundaravadivelu",
+    "user_contact_number": 2931293443,
+    "user_email_id": "oznnpx91@gmail.com",
+    "creation_time": "2025-02-09T18:40:09.429+00:00",
+    "last_mod_time": "2025-02-09T18:40:09.429+00:00"
+}
+[INFO ] 2025-02-09 12:40:19.657 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/updateuser/{userId}
+[INFO ] 2025-02-09 12:40:19.657 [main] LogHelper - Request Body: {"user_first_name":"Srividya Updated","user_last_name":"Sundaravadivelu Updated","user_contact_number":"8884240013","user_email_id":"pxjhyb10@gmail.com","userAddress":{"plotNumber":"3-A","street":"Waldo Ave Updated","state":"Illinois Updated","country":"USA Updated","zipCode":"11111","addressId":"19714"},"user_id":19747,"creation_time":"2025-02-09T18:40:09.429Z","last_mod_time":"2025-02-09T18:40:09.429Z"}
+[INFO ] 2025-02-09 12:40:19.658 [main] LogHelper - Response: {
+    "userAddress": {
+        "addressId": 19714,
+        "plotNumber": "3-A",
+        "street": "Waldo Ave Updated",
+        "state": "Illinois Updated",
+        "country": "USA Updated",
+        "zipCode": 11111
+    },
+    "user_id": 19747,
+    "user_first_name": "Srividya Updated",
+    "user_last_name": "Sundaravadivelu Updated",
+    "user_contact_number": 8884240013,
+    "user_email_id": "pxjhyb10@gmail.com",
+    "creation_time": "2025-02-09T18:40:09.429+00:00",
+    "last_mod_time": "2025-02-09T18:40:18.197+00:00"
+}
+[INFO ] 2025-02-09 12:40:19.658 [main] LogHelper - Updated user details for ID: 19747
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[{country=USA, zipCode=61115, user_last_name=Sundaravadivelu, expected_status_line=OK, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=200, userId=, Scenario=Revert previous fields  to original value, user_contact_number=GENERATE_IN_CODE, endpoint=uap/updateuser, user_first_name=Srividya, user_email_id=Team10Srividya2@gmail.com, street=Waldo Ave, plotNumber=3-A, state=Illinois}](2)" classname="tests.UserTests" time="1.006">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at tests.UserTests.testUpdateUser(UserTests.java:223)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:20.192 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/user/{userId}
+[INFO ] 2025-02-09 12:40:20.193 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:20.198 [main] LogHelper - Response: {
+    "userAddress": {
+        "addressId": 19714,
+        "plotNumber": "3-A",
+        "street": "Waldo Ave Updated",
+        "state": "Illinois Updated",
+        "country": "USA Updated",
+        "zipCode": 11111
+    },
+    "user_id": 19747,
+    "user_first_name": "Srividya Updated",
+    "user_last_name": "Sundaravadivelu Updated",
+    "user_contact_number": 8884240013,
+    "user_email_id": "pxjhyb10@gmail.com",
+    "creation_time": "2025-02-09T18:40:09.429+00:00",
+    "last_mod_time": "2025-02-09T18:40:18.197+00:00"
+}
+[INFO ] 2025-02-09 12:40:20.613 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/updateuser/{userId}
+[INFO ] 2025-02-09 12:40:20.613 [main] LogHelper - Request Body: {"user_first_name":"Srividya","user_last_name":"Sundaravadivelu","user_contact_number":"8779007237","user_email_id":"Team10Srividya2@gmail.com","userAddress":{"plotNumber":"3-A","street":"Waldo Ave","state":"Illinois","country":"USA","zipCode":"61115","addressId":"19714"},"user_id":19747,"creation_time":"2025-02-09T18:40:09.429Z","last_mod_time":"2025-02-09T18:40:09.429Z"}
+[INFO ] 2025-02-09 12:40:20.614 [main] LogHelper - Response: {
+    "timestamp": "2025-02-09T18:40:19.159+00:00",
+    "status": 500,
+    "error": "Internal Server Error",
+    "path": "/uap/updateuser/19747"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[{country=, zipCode=, user_last_name=, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=First name non alphabet value, user_contact_number=, endpoint=uap/updateuser, user_first_name=Srividya$, user_email_id=, street=, plotNumber=, state=}](3)" classname="tests.UserTests" time="0.81">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:21.210 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/user/{userId}
+[INFO ] 2025-02-09 12:40:21.210 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:21.211 [main] LogHelper - Response: {
+    "userAddress": {
+        "addressId": 19714,
+        "plotNumber": "3-A",
+        "street": "Waldo Ave Updated",
+        "state": "Illinois Updated",
+        "country": "USA Updated",
+        "zipCode": 11111
+    },
+    "user_id": 19747,
+    "user_first_name": "Srividya Updated",
+    "user_last_name": "Sundaravadivelu Updated",
+    "user_contact_number": 8884240013,
+    "user_email_id": "pxjhyb10@gmail.com",
+    "creation_time": "2025-02-09T18:40:09.429+00:00",
+    "last_mod_time": "2025-02-09T18:40:18.197+00:00"
+}
+[INFO ] 2025-02-09 12:40:21.639 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/updateuser/{userId}
+[INFO ] 2025-02-09 12:40:21.640 [main] LogHelper - Request Body: {"user_first_name":"Srividya$","user_last_name":"Sundaravadivelu Updated","user_contact_number":"8884240013","user_email_id":"pxjhyb10@gmail.com","userAddress":{"plotNumber":"3-A","street":"Waldo Ave Updated","state":"Illinois Updated","country":"USA Updated","zipCode":"11111","addressId":"19714"},"user_id":19747,"creation_time":"2025-02-09T18:40:09.429Z","last_mod_time":"2025-02-09T18:40:09.429Z"}
+[INFO ] 2025-02-09 12:40:21.640 [main] LogHelper - Response: {
+    "status": "400 BAD_REQUEST",
+    "message": "User First Name is mandatory and should contains alphabets only"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[{country=, zipCode=, user_last_name=Sundaravadivelu$, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=Last name non alphabet value, user_contact_number=, endpoint=uap/updateuser, user_first_name=, user_email_id=, street=, plotNumber=, state=}](4)" classname="tests.UserTests" time="0.849">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:22.041 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/user/{userId}
+[INFO ] 2025-02-09 12:40:22.042 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:22.045 [main] LogHelper - Response: {
+    "userAddress": {
+        "addressId": 19714,
+        "plotNumber": "3-A",
+        "street": "Waldo Ave Updated",
+        "state": "Illinois Updated",
+        "country": "USA Updated",
+        "zipCode": 11111
+    },
+    "user_id": 19747,
+    "user_first_name": "Srividya Updated",
+    "user_last_name": "Sundaravadivelu Updated",
+    "user_contact_number": 8884240013,
+    "user_email_id": "pxjhyb10@gmail.com",
+    "creation_time": "2025-02-09T18:40:09.429+00:00",
+    "last_mod_time": "2025-02-09T18:40:18.197+00:00"
+}
+[INFO ] 2025-02-09 12:40:22.495 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/updateuser/{userId}
+[INFO ] 2025-02-09 12:40:22.495 [main] LogHelper - Request Body: {"user_first_name":"Srividya Updated","user_last_name":"Sundaravadivelu$","user_contact_number":"8884240013","user_email_id":"pxjhyb10@gmail.com","userAddress":{"plotNumber":"3-A","street":"Waldo Ave Updated","state":"Illinois Updated","country":"USA Updated","zipCode":"11111","addressId":"19714"},"user_id":19747,"creation_time":"2025-02-09T18:40:09.429Z","last_mod_time":"2025-02-09T18:40:09.429Z"}
+[INFO ] 2025-02-09 12:40:22.498 [main] LogHelper - Response: {
+    "status": "400 BAD_REQUEST",
+    "message": "User Last Name is mandatory and should contains alphabets only"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[{country=, zipCode=, user_last_name=, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=Email id invalid, user_contact_number=, endpoint=uap/updateuser, user_first_name=, user_email_id=abc@@abc.com, street=, plotNumber=, state=}](5)" classname="tests.UserTests" time="0.81">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:22.946 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/user/{userId}
+[INFO ] 2025-02-09 12:40:22.947 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:22.947 [main] LogHelper - Response: {
+    "userAddress": {
+        "addressId": 19714,
+        "plotNumber": "3-A",
+        "street": "Waldo Ave Updated",
+        "state": "Illinois Updated",
+        "country": "USA Updated",
+        "zipCode": 11111
+    },
+    "user_id": 19747,
+    "user_first_name": "Srividya Updated",
+    "user_last_name": "Sundaravadivelu Updated",
+    "user_contact_number": 8884240013,
+    "user_email_id": "pxjhyb10@gmail.com",
+    "creation_time": "2025-02-09T18:40:09.429+00:00",
+    "last_mod_time": "2025-02-09T18:40:18.197+00:00"
+}
+[INFO ] 2025-02-09 12:40:23.358 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/updateuser/{userId}
+[INFO ] 2025-02-09 12:40:23.359 [main] LogHelper - Request Body: {"user_first_name":"Srividya Updated","user_last_name":"Sundaravadivelu Updated","user_contact_number":"8884240013","user_email_id":"abc@@abc.com","userAddress":{"plotNumber":"3-A","street":"Waldo Ave Updated","state":"Illinois Updated","country":"USA Updated","zipCode":"11111","addressId":"19714"},"user_id":19747,"creation_time":"2025-02-09T18:40:09.429Z","last_mod_time":"2025-02-09T18:40:09.429Z"}
+[INFO ] 2025-02-09 12:40:23.363 [main] LogHelper - Response: {
+    "status": "400 BAD_REQUEST",
+    "message": "User email Id is required"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[{country=, zipCode=, user_last_name=, expected_status_line=Conflict, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=409, userId=, Scenario=Email id already exists, user_contact_number=, endpoint=uap/updateuser, user_first_name=, user_email_id=Numpy@gmail.com, street=, plotNumber=, state=}](6)" classname="tests.UserTests" time="0.835">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;409&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <409> but was <500>.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at tests.UserTests.testUpdateUser(UserTests.java:223)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:23.817 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/user/{userId}
+[INFO ] 2025-02-09 12:40:23.818 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:23.821 [main] LogHelper - Response: {
+    "userAddress": {
+        "addressId": 19714,
+        "plotNumber": "3-A",
+        "street": "Waldo Ave Updated",
+        "state": "Illinois Updated",
+        "country": "USA Updated",
+        "zipCode": 11111
+    },
+    "user_id": 19747,
+    "user_first_name": "Srividya Updated",
+    "user_last_name": "Sundaravadivelu Updated",
+    "user_contact_number": 8884240013,
+    "user_email_id": "pxjhyb10@gmail.com",
+    "creation_time": "2025-02-09T18:40:09.429+00:00",
+    "last_mod_time": "2025-02-09T18:40:18.197+00:00"
+}
+[INFO ] 2025-02-09 12:40:24.201 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/updateuser/{userId}
+[INFO ] 2025-02-09 12:40:24.203 [main] LogHelper - Request Body: {"user_first_name":"Srividya Updated","user_last_name":"Sundaravadivelu Updated","user_contact_number":"8884240013","user_email_id":"Numpy@gmail.com","userAddress":{"plotNumber":"3-A","street":"Waldo Ave Updated","state":"Illinois Updated","country":"USA Updated","zipCode":"11111","addressId":"19714"},"user_id":19747,"creation_time":"2025-02-09T18:40:09.429Z","last_mod_time":"2025-02-09T18:40:09.429Z"}
+[INFO ] 2025-02-09 12:40:24.203 [main] LogHelper - Response: {
+    "timestamp": "2025-02-09T18:40:22.750+00:00",
+    "status": 500,
+    "error": "Internal Server Error",
+    "path": "/uap/updateuser/19747"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[{country=, zipCode=, user_last_name=, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=First name is empty, user_contact_number=, endpoint=uap/updateuser, user_first_name=&quot;&quot;&quot;&quot;&quot;&quot;, user_email_id=, street=, plotNumber=, state=}](7)" classname="tests.UserTests" time="0.821">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:24.663 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/user/{userId}
+[INFO ] 2025-02-09 12:40:24.664 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:24.664 [main] LogHelper - Response: {
+    "userAddress": {
+        "addressId": 19714,
+        "plotNumber": "3-A",
+        "street": "Waldo Ave Updated",
+        "state": "Illinois Updated",
+        "country": "USA Updated",
+        "zipCode": 11111
+    },
+    "user_id": 19747,
+    "user_first_name": "Srividya Updated",
+    "user_last_name": "Sundaravadivelu Updated",
+    "user_contact_number": 8884240013,
+    "user_email_id": "pxjhyb10@gmail.com",
+    "creation_time": "2025-02-09T18:40:09.429+00:00",
+    "last_mod_time": "2025-02-09T18:40:18.197+00:00"
+}
+[INFO ] 2025-02-09 12:40:25.032 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/updateuser/{userId}
+[INFO ] 2025-02-09 12:40:25.033 [main] LogHelper - Request Body: {"user_first_name":"\"\"\"\"\"\"","user_last_name":"Sundaravadivelu Updated","user_contact_number":"8884240013","user_email_id":"pxjhyb10@gmail.com","userAddress":{"plotNumber":"3-A","street":"Waldo Ave Updated","state":"Illinois Updated","country":"USA Updated","zipCode":"11111","addressId":"19714"},"user_id":19747,"creation_time":"2025-02-09T18:40:09.429Z","last_mod_time":"2025-02-09T18:40:09.429Z"}
+[INFO ] 2025-02-09 12:40:25.033 [main] LogHelper - Response: {
+    "status": "400 BAD_REQUEST",
+    "message": "User First Name is mandatory and should contains alphabets only"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[{country=, zipCode=, user_last_name=&quot;&quot;&quot;&quot;&quot;&quot;, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=Last name is empty, user_contact_number=, endpoint=uap/updateuser, user_first_name=, user_email_id=, street=, plotNumber=, state=}](8)" classname="tests.UserTests" time="0.769">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:25.412 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/user/{userId}
+[INFO ] 2025-02-09 12:40:25.412 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:25.413 [main] LogHelper - Response: {
+    "userAddress": {
+        "addressId": 19714,
+        "plotNumber": "3-A",
+        "street": "Waldo Ave Updated",
+        "state": "Illinois Updated",
+        "country": "USA Updated",
+        "zipCode": 11111
+    },
+    "user_id": 19747,
+    "user_first_name": "Srividya Updated",
+    "user_last_name": "Sundaravadivelu Updated",
+    "user_contact_number": 8884240013,
+    "user_email_id": "pxjhyb10@gmail.com",
+    "creation_time": "2025-02-09T18:40:09.429+00:00",
+    "last_mod_time": "2025-02-09T18:40:18.197+00:00"
+}
+[INFO ] 2025-02-09 12:40:25.809 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/updateuser/{userId}
+[INFO ] 2025-02-09 12:40:25.809 [main] LogHelper - Request Body: {"user_first_name":"Srividya Updated","user_last_name":"\"\"\"\"\"\"","user_contact_number":"8884240013","user_email_id":"pxjhyb10@gmail.com","userAddress":{"plotNumber":"3-A","street":"Waldo Ave Updated","state":"Illinois Updated","country":"USA Updated","zipCode":"11111","addressId":"19714"},"user_id":19747,"creation_time":"2025-02-09T18:40:09.429Z","last_mod_time":"2025-02-09T18:40:09.429Z"}
+[INFO ] 2025-02-09 12:40:25.810 [main] LogHelper - Response: {
+    "status": "400 BAD_REQUEST",
+    "message": "User Last Name is mandatory and should contains alphabets only"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[{country=, zipCode=, user_last_name=, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=Contact number is empty, user_contact_number=&quot;&quot;&quot;&quot;&quot;&quot;, endpoint=uap/updateuser, user_first_name=, user_email_id=, street=, plotNumber=, state=}](9)" classname="tests.UserTests" time="0.805">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:26.207 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/user/{userId}
+[INFO ] 2025-02-09 12:40:26.208 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:26.209 [main] LogHelper - Response: {
+    "userAddress": {
+        "addressId": 19714,
+        "plotNumber": "3-A",
+        "street": "Waldo Ave Updated",
+        "state": "Illinois Updated",
+        "country": "USA Updated",
+        "zipCode": 11111
+    },
+    "user_id": 19747,
+    "user_first_name": "Srividya Updated",
+    "user_last_name": "Sundaravadivelu Updated",
+    "user_contact_number": 8884240013,
+    "user_email_id": "pxjhyb10@gmail.com",
+    "creation_time": "2025-02-09T18:40:09.429+00:00",
+    "last_mod_time": "2025-02-09T18:40:18.197+00:00"
+}
+[INFO ] 2025-02-09 12:40:26.620 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/updateuser/{userId}
+[INFO ] 2025-02-09 12:40:26.621 [main] LogHelper - Request Body: {"user_first_name":"Srividya Updated","user_last_name":"Sundaravadivelu Updated","user_contact_number":"\"\"\"\"\"\"","user_email_id":"pxjhyb10@gmail.com","userAddress":{"plotNumber":"3-A","street":"Waldo Ave Updated","state":"Illinois Updated","country":"USA Updated","zipCode":"11111","addressId":"19714"},"user_id":19747,"creation_time":"2025-02-09T18:40:09.429Z","last_mod_time":"2025-02-09T18:40:09.429Z"}
+[INFO ] 2025-02-09 12:40:26.622 [main] LogHelper - Response: {
+    "timestamp": "2025-02-09T18:40:25.152+00:00",
+    "status": 400,
+    "error": "Bad Request",
+    "path": "/uap/updateuser/19747"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[{country=, zipCode=, user_last_name=, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=Contact number less than 10 numeric values, user_contact_number=123, endpoint=uap/updateuser, user_first_name=, user_email_id=, street=, plotNumber=, state=}](10)" classname="tests.UserTests" time="0.828">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:27.039 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/user/{userId}
+[INFO ] 2025-02-09 12:40:27.040 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:27.041 [main] LogHelper - Response: {
+    "userAddress": {
+        "addressId": 19714,
+        "plotNumber": "3-A",
+        "street": "Waldo Ave Updated",
+        "state": "Illinois Updated",
+        "country": "USA Updated",
+        "zipCode": 11111
+    },
+    "user_id": 19747,
+    "user_first_name": "Srividya Updated",
+    "user_last_name": "Sundaravadivelu Updated",
+    "user_contact_number": 8884240013,
+    "user_email_id": "pxjhyb10@gmail.com",
+    "creation_time": "2025-02-09T18:40:09.429+00:00",
+    "last_mod_time": "2025-02-09T18:40:18.197+00:00"
+}
+[INFO ] 2025-02-09 12:40:27.450 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/updateuser/{userId}
+[INFO ] 2025-02-09 12:40:27.451 [main] LogHelper - Request Body: {"user_first_name":"Srividya Updated","user_last_name":"Sundaravadivelu Updated","user_contact_number":"123","user_email_id":"pxjhyb10@gmail.com","userAddress":{"plotNumber":"3-A","street":"Waldo Ave Updated","state":"Illinois Updated","country":"USA Updated","zipCode":"11111","addressId":"19714"},"user_id":19747,"creation_time":"2025-02-09T18:40:09.429Z","last_mod_time":"2025-02-09T18:40:09.429Z"}
+[INFO ] 2025-02-09 12:40:27.451 [main] LogHelper - Response: {
+    "status": "400 BAD_REQUEST",
+    "message": "Phone Number is required and should contains 10 numeric values only"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[{country=, zipCode=, user_last_name=, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=Contact number greater than 10 numeric values, user_contact_number=1.23E+14, endpoint=uap/updateuser, user_first_name=, user_email_id=, street=, plotNumber=, state=}](11)" classname="tests.UserTests" time="0.765">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:27.861 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/user/{userId}
+[INFO ] 2025-02-09 12:40:27.862 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:27.863 [main] LogHelper - Response: {
+    "userAddress": {
+        "addressId": 19714,
+        "plotNumber": "3-A",
+        "street": "Waldo Ave Updated",
+        "state": "Illinois Updated",
+        "country": "USA Updated",
+        "zipCode": 11111
+    },
+    "user_id": 19747,
+    "user_first_name": "Srividya Updated",
+    "user_last_name": "Sundaravadivelu Updated",
+    "user_contact_number": 8884240013,
+    "user_email_id": "pxjhyb10@gmail.com",
+    "creation_time": "2025-02-09T18:40:09.429+00:00",
+    "last_mod_time": "2025-02-09T18:40:18.197+00:00"
+}
+[INFO ] 2025-02-09 12:40:28.222 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/updateuser/{userId}
+[INFO ] 2025-02-09 12:40:28.222 [main] LogHelper - Request Body: {"user_first_name":"Srividya Updated","user_last_name":"Sundaravadivelu Updated","user_contact_number":"1.23E+14","user_email_id":"pxjhyb10@gmail.com","userAddress":{"plotNumber":"3-A","street":"Waldo Ave Updated","state":"Illinois Updated","country":"USA Updated","zipCode":"11111","addressId":"19714"},"user_id":19747,"creation_time":"2025-02-09T18:40:09.429Z","last_mod_time":"2025-02-09T18:40:09.429Z"}
+[INFO ] 2025-02-09 12:40:28.223 [main] LogHelper - Response: {
+    "timestamp": "2025-02-09T18:40:26.768+00:00",
+    "status": 400,
+    "error": "Bad Request",
+    "path": "/uap/updateuser/19747"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[{country=, zipCode=, user_last_name=, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=Contact number already exists, user_contact_number=1234567891, endpoint=uap/updateuser, user_first_name=, user_email_id=, street=, plotNumber=, state=}](12)" classname="tests.UserTests" time="0.767">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:28.603 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/user/{userId}
+[INFO ] 2025-02-09 12:40:28.603 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:28.605 [main] LogHelper - Response: {
+    "userAddress": {
+        "addressId": 19714,
+        "plotNumber": "3-A",
+        "street": "Waldo Ave Updated",
+        "state": "Illinois Updated",
+        "country": "USA Updated",
+        "zipCode": 11111
+    },
+    "user_id": 19747,
+    "user_first_name": "Srividya Updated",
+    "user_last_name": "Sundaravadivelu Updated",
+    "user_contact_number": 8884240013,
+    "user_email_id": "pxjhyb10@gmail.com",
+    "creation_time": "2025-02-09T18:40:09.429+00:00",
+    "last_mod_time": "2025-02-09T18:40:18.197+00:00"
+}
+[INFO ] 2025-02-09 12:40:28.996 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/updateuser/{userId}
+[INFO ] 2025-02-09 12:40:28.996 [main] LogHelper - Request Body: {"user_first_name":"Srividya Updated","user_last_name":"Sundaravadivelu Updated","user_contact_number":"1234567891","user_email_id":"pxjhyb10@gmail.com","userAddress":{"plotNumber":"3-A","street":"Waldo Ave Updated","state":"Illinois Updated","country":"USA Updated","zipCode":"11111","addressId":"19714"},"user_id":19747,"creation_time":"2025-02-09T18:40:09.429Z","last_mod_time":"2025-02-09T18:40:09.429Z"}
+[INFO ] 2025-02-09 12:40:28.997 [main] LogHelper - Response: {
+    "status": "400 BAD_REQUEST",
+    "message": "Contact number is already in use by another user"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[{country=, zipCode=, user_last_name=, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=State non alphabet value, user_contact_number=, endpoint=uap/updateuser, user_first_name=, user_email_id=, street=, plotNumber=, state=Illinois*}](13)" classname="tests.UserTests" time="0.718">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:29.347 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/user/{userId}
+[INFO ] 2025-02-09 12:40:29.348 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:29.348 [main] LogHelper - Response: {
+    "userAddress": {
+        "addressId": 19714,
+        "plotNumber": "3-A",
+        "street": "Waldo Ave Updated",
+        "state": "Illinois Updated",
+        "country": "USA Updated",
+        "zipCode": 11111
+    },
+    "user_id": 19747,
+    "user_first_name": "Srividya Updated",
+    "user_last_name": "Sundaravadivelu Updated",
+    "user_contact_number": 8884240013,
+    "user_email_id": "pxjhyb10@gmail.com",
+    "creation_time": "2025-02-09T18:40:09.429+00:00",
+    "last_mod_time": "2025-02-09T18:40:18.197+00:00"
+}
+[INFO ] 2025-02-09 12:40:29.726 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/updateuser/{userId}
+[INFO ] 2025-02-09 12:40:29.727 [main] LogHelper - Request Body: {"user_first_name":"Srividya Updated","user_last_name":"Sundaravadivelu Updated","user_contact_number":"8884240013","user_email_id":"pxjhyb10@gmail.com","userAddress":{"plotNumber":"3-A","street":"Waldo Ave Updated","state":"Illinois*","country":"USA Updated","zipCode":"11111","addressId":"19714"},"user_id":19747,"creation_time":"2025-02-09T18:40:09.429Z","last_mod_time":"2025-02-09T18:40:09.429Z"}
+[INFO ] 2025-02-09 12:40:29.728 [main] LogHelper - Response: {
+    "status": "400 BAD_REQUEST",
+    "message": "State should contain alphabet characters only"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[{country=USA*, zipCode=, user_last_name=, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=Country non alphabet value, user_contact_number=, endpoint=uap/updateuser, user_first_name=, user_email_id=, street=, plotNumber=, state=}](14)" classname="tests.UserTests" time="0.747">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:30.094 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/user/{userId}
+[INFO ] 2025-02-09 12:40:30.095 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:30.096 [main] LogHelper - Response: {
+    "userAddress": {
+        "addressId": 19714,
+        "plotNumber": "3-A",
+        "street": "Waldo Ave Updated",
+        "state": "Illinois Updated",
+        "country": "USA Updated",
+        "zipCode": 11111
+    },
+    "user_id": 19747,
+    "user_first_name": "Srividya Updated",
+    "user_last_name": "Sundaravadivelu Updated",
+    "user_contact_number": 8884240013,
+    "user_email_id": "pxjhyb10@gmail.com",
+    "creation_time": "2025-02-09T18:40:09.429+00:00",
+    "last_mod_time": "2025-02-09T18:40:18.197+00:00"
+}
+[INFO ] 2025-02-09 12:40:30.464 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/updateuser/{userId}
+[INFO ] 2025-02-09 12:40:30.465 [main] LogHelper - Request Body: {"user_first_name":"Srividya Updated","user_last_name":"Sundaravadivelu Updated","user_contact_number":"8884240013","user_email_id":"pxjhyb10@gmail.com","userAddress":{"plotNumber":"3-A","street":"Waldo Ave Updated","state":"Illinois Updated","country":"USA*","zipCode":"11111","addressId":"19714"},"user_id":19747,"creation_time":"2025-02-09T18:40:09.429Z","last_mod_time":"2025-02-09T18:40:09.429Z"}
+[INFO ] 2025-02-09 12:40:30.465 [main] LogHelper - Response: {
+    "status": "400 BAD_REQUEST",
+    "message": "Country should contain alphabet characters only"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[{country=, zipCode=, user_last_name=, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=Street non alphabet vaue, user_contact_number=, endpoint=uap/updateuser, user_first_name=, user_email_id=, street=Waldo*, plotNumber=, state=}](15)" classname="tests.UserTests" time="0.713">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:30.833 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/user/{userId}
+[INFO ] 2025-02-09 12:40:30.833 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:30.834 [main] LogHelper - Response: {
+    "userAddress": {
+        "addressId": 19714,
+        "plotNumber": "3-A",
+        "street": "Waldo Ave Updated",
+        "state": "Illinois Updated",
+        "country": "USA Updated",
+        "zipCode": 11111
+    },
+    "user_id": 19747,
+    "user_first_name": "Srividya Updated",
+    "user_last_name": "Sundaravadivelu Updated",
+    "user_contact_number": 8884240013,
+    "user_email_id": "pxjhyb10@gmail.com",
+    "creation_time": "2025-02-09T18:40:09.429+00:00",
+    "last_mod_time": "2025-02-09T18:40:18.197+00:00"
+}
+[INFO ] 2025-02-09 12:40:31.191 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/updateuser/{userId}
+[INFO ] 2025-02-09 12:40:31.192 [main] LogHelper - Request Body: {"user_first_name":"Srividya Updated","user_last_name":"Sundaravadivelu Updated","user_contact_number":"8884240013","user_email_id":"pxjhyb10@gmail.com","userAddress":{"plotNumber":"3-A","street":"Waldo*","state":"Illinois Updated","country":"USA Updated","zipCode":"11111","addressId":"19714"},"user_id":19747,"creation_time":"2025-02-09T18:40:09.429Z","last_mod_time":"2025-02-09T18:40:09.429Z"}
+[INFO ] 2025-02-09 12:40:31.193 [main] LogHelper - Response: {
+    "status": "400 BAD_REQUEST",
+    "message": "Street should contain alphabet characters only"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[{country=, zipCode=6!11$, user_last_name=, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=ZipCode non numeric values, user_contact_number=, endpoint=uap/updateuser, user_first_name=, user_email_id=, street=, plotNumber=, state=}](16)" classname="tests.UserTests" time="0.725">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:31.571 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/user/{userId}
+[INFO ] 2025-02-09 12:40:31.571 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:31.572 [main] LogHelper - Response: {
+    "userAddress": {
+        "addressId": 19714,
+        "plotNumber": "3-A",
+        "street": "Waldo Ave Updated",
+        "state": "Illinois Updated",
+        "country": "USA Updated",
+        "zipCode": 11111
+    },
+    "user_id": 19747,
+    "user_first_name": "Srividya Updated",
+    "user_last_name": "Sundaravadivelu Updated",
+    "user_contact_number": 8884240013,
+    "user_email_id": "pxjhyb10@gmail.com",
+    "creation_time": "2025-02-09T18:40:09.429+00:00",
+    "last_mod_time": "2025-02-09T18:40:18.197+00:00"
+}
+[INFO ] 2025-02-09 12:40:31.923 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/updateuser/{userId}
+[INFO ] 2025-02-09 12:40:31.923 [main] LogHelper - Request Body: {"user_first_name":"Srividya Updated","user_last_name":"Sundaravadivelu Updated","user_contact_number":"8884240013","user_email_id":"pxjhyb10@gmail.com","userAddress":{"plotNumber":"3-A","street":"Waldo Ave Updated","state":"Illinois Updated","country":"USA Updated","zipCode":"6!11$","addressId":"19714"},"user_id":19747,"creation_time":"2025-02-09T18:40:09.429Z","last_mod_time":"2025-02-09T18:40:09.429Z"}
+[INFO ] 2025-02-09 12:40:31.924 [main] LogHelper - Response: {
+    "timestamp": "2025-02-09T18:40:30.470+00:00",
+    "status": 400,
+    "error": "Bad Request",
+    "path": "/uap/updateuser/19747"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[{country=, zipCode=, user_last_name=, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=Plot Number non alpha numeric, user_contact_number=, endpoint=uap/updateuser, user_first_name=, user_email_id=, street=, plotNumber=!ABC, state=}](17)" classname="tests.UserTests" time="0.752">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:32.285 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/user/{userId}
+[INFO ] 2025-02-09 12:40:32.286 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:32.287 [main] LogHelper - Response: {
+    "userAddress": {
+        "addressId": 19714,
+        "plotNumber": "3-A",
+        "street": "Waldo Ave Updated",
+        "state": "Illinois Updated",
+        "country": "USA Updated",
+        "zipCode": 11111
+    },
+    "user_id": 19747,
+    "user_first_name": "Srividya Updated",
+    "user_last_name": "Sundaravadivelu Updated",
+    "user_contact_number": 8884240013,
+    "user_email_id": "pxjhyb10@gmail.com",
+    "creation_time": "2025-02-09T18:40:09.429+00:00",
+    "last_mod_time": "2025-02-09T18:40:18.197+00:00"
+}
+[INFO ] 2025-02-09 12:40:32.683 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/updateuser/{userId}
+[INFO ] 2025-02-09 12:40:32.683 [main] LogHelper - Request Body: {"user_first_name":"Srividya Updated","user_last_name":"Sundaravadivelu Updated","user_contact_number":"8884240013","user_email_id":"pxjhyb10@gmail.com","userAddress":{"plotNumber":"!ABC","street":"Waldo Ave Updated","state":"Illinois Updated","country":"USA Updated","zipCode":"11111","addressId":"19714"},"user_id":19747,"creation_time":"2025-02-09T18:40:09.429Z","last_mod_time":"2025-02-09T18:40:09.429Z"}
+[INFO ] 2025-02-09 12:40:32.686 [main] LogHelper - Response: {
+    "status": "400 BAD_REQUEST",
+    "message": "Plot number should contain alphaNumeric values only"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[{country=, zipCode=, user_last_name=, expected_status_line=Not Found, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=404, userId=, Scenario=invalid endpoint, user_contact_number=, endpoint=uap/invalid, user_first_name=, user_email_id=, street=, plotNumber=, state=}](18)" classname="tests.UserTests" time="0.803">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:33.048 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/user/{userId}
+[INFO ] 2025-02-09 12:40:33.048 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:33.049 [main] LogHelper - Response: {
+    "userAddress": {
+        "addressId": 19714,
+        "plotNumber": "3-A",
+        "street": "Waldo Ave Updated",
+        "state": "Illinois Updated",
+        "country": "USA Updated",
+        "zipCode": 11111
+    },
+    "user_id": 19747,
+    "user_first_name": "Srividya Updated",
+    "user_last_name": "Sundaravadivelu Updated",
+    "user_contact_number": 8884240013,
+    "user_email_id": "pxjhyb10@gmail.com",
+    "creation_time": "2025-02-09T18:40:09.429+00:00",
+    "last_mod_time": "2025-02-09T18:40:18.197+00:00"
+}
+[INFO ] 2025-02-09 12:40:33.494 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/invalid/{userId}
+[INFO ] 2025-02-09 12:40:33.494 [main] LogHelper - Request Body: {"user_first_name":"Srividya Updated","user_last_name":"Sundaravadivelu Updated","user_contact_number":"8884240013","user_email_id":"pxjhyb10@gmail.com","userAddress":{"plotNumber":"3-A","street":"Waldo Ave Updated","state":"Illinois Updated","country":"USA Updated","zipCode":"11111","addressId":"19714"},"user_id":19747,"creation_time":"2025-02-09T18:40:09.429Z","last_mod_time":"2025-02-09T18:40:09.429Z"}
+[INFO ] 2025-02-09 12:40:33.494 [main] LogHelper - Response: {
+    "timestamp": "2025-02-09T18:40:32.039+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/uap/invalid/19747"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUserById[{country=, zipCode=, user_last_name=, expected_status_line=OK, RequestName=DeleteUserByID, ﻿Method=DELETE, expected_status_code=200, userId=, Scenario=Delete user by ID  generated in POST - valid, user_contact_number=, endpoint=uap/deleteuser, user_first_name=, user_email_id=, street=, plotNumber=, state=}](1)" classname="tests.UserTests" time="0.401">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:33.879 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/deleteuser/{userId}
+[INFO ] 2025-02-09 12:40:33.879 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:33.884 [main] LogHelper - Response: {
+    "status": "Success",
+    "message": "User is deleted successfully"
+}
+[INFO ] 2025-02-09 12:40:33.885 [main] LogHelper - Deleted user with ID: 19747
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUserById[{country=, zipCode=, user_last_name=, expected_status_line=Not Found, RequestName=DeleteUserByID, ﻿Method=DELETE, expected_status_code=404, userId=, Scenario=Delete user by ID -invalid - already deleted user id, user_contact_number=, endpoint=uap/deleteuser, user_first_name=, user_email_id=, street=, plotNumber=, state=}](2)" classname="tests.UserTests" time="0.364">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:34.281 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/deleteuser/{userId}
+[INFO ] 2025-02-09 12:40:34.282 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:34.282 [main] LogHelper - Response: {
+    "status": "404 NOT_FOUND",
+    "message": "User not found with id: 19747"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUserById[{country=, zipCode=, user_last_name=, expected_status_line=Not Found, RequestName=DeleteUserByID, ﻿Method=DELETE, expected_status_code=404, userId=, Scenario=invalid endpoint, user_contact_number=, endpoint=uap/invalid, user_first_name=, user_email_id=, street=, plotNumber=, state=}](3)" classname="tests.UserTests" time="0.42">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:34.702 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/invalid/{userId}
+[INFO ] 2025-02-09 12:40:34.702 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:34.703 [main] LogHelper - Response: {
+    "timestamp": "2025-02-09T18:40:33.247+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/uap/invalid/19747"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUserByFirstName[{country=, zipCode=, user_last_name=, expected_status_line=OK, RequestName=DeleteUserByFirstName, ﻿Method=DELETE, expected_status_code=200, userId=, Scenario=Delete user by First name - valid, user_contact_number=, endpoint=uap/deleteuser/username, user_first_name=Deleteuser, user_email_id=, street=, plotNumber=, state=}](1)" classname="tests.UserTests" time="0.403">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:35.098 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/deleteuser/username/{userfirstname}
+[INFO ] 2025-02-09 12:40:35.098 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:35.098 [main] LogHelper - Response: {
+    "status": "Success",
+    "message": "User is deleted successfully"
+}
+[INFO ] 2025-02-09 12:40:35.100 [main] LogHelper - Deleted user with first name: Deleteuser
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUserByFirstName[{country=, zipCode=, user_last_name=, expected_status_line=Not Found, RequestName=DeleteUserByFirstName, ﻿Method=DELETE, expected_status_code=404, userId=, Scenario=Delete user by First name  - invalid , user_contact_number=, endpoint=uap/deleteuser/username, user_first_name=InvalidFirstName, user_email_id=, street=, plotNumber=, state=}](2)" classname="tests.UserTests" time="0.384">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:35.512 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/deleteuser/username/{userfirstname}
+[INFO ] 2025-02-09 12:40:35.512 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:35.513 [main] LogHelper - Response: {
+    "status": "404 NOT_FOUND",
+    "message": "User does not exist with name 'InvalidFirstName'"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUserByFirstName[{country=, zipCode=, user_last_name=, expected_status_line=Not Found, RequestName=DeleteUserByFirstName, ﻿Method=DELETE, expected_status_code=404, userId=, Scenario=invalid endpoint, user_contact_number=, endpoint=uap/invalid, user_first_name=, user_email_id=, street=, plotNumber=, state=}](3)" classname="tests.UserTests" time="0.369">
+    <system-out><![CDATA[[INFO ] 2025-02-09 12:40:35.891 [main] LogHelper - Request URL: https://userserviceapp-f5a54828541b.herokuapp.com/uap/invalid/{userfirstname}
+[INFO ] 2025-02-09 12:40:35.891 [main] LogHelper - Request Body: null
+[INFO ] 2025-02-09 12:40:35.892 [main] LogHelper - Response: {
+    "timestamp": "2025-02-09T18:40:34.436+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/uap/invalid/"
+}
+]]></system-out>
+  </testcase>
+</testsuite>

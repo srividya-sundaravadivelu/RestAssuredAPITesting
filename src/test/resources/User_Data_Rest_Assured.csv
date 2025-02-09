@@ -1,0 +1,51 @@
+﻿Method,RequestName,Scenario,endpoint,userId,user_first_name,user_last_name,user_email_id,user_contact_number,street,plotNumber,state,country,zipCode,expected_status_code,expected_status_line
+POST,CreateNewUser,Create new user to use for delete,uap/createusers,,Deleteuser,Deleteuser,GENERATE_IN_CODE,GENERATE_IN_CODE,Waldo Ave,3-A,Illinois,USA,61115,201,Created
+POST,CreateNewUser,Pass all fields  ,uap/createusers,,Srividya,Sundaravadivelu,GENERATE_IN_CODE,GENERATE_IN_CODE,Waldo Ave,3-A,Illinois,USA,61115,201,Created
+POST,CreateNewUser,First name empty,uap/createusers,,"""""",Sundaravadivelu,GENERATE_IN_CODE,GENERATE_IN_CODE,,,,,null,400,Bad Request
+POST,CreateNewUser,First name non alphabet value,uap/createusers,,Srividya$,Sundaravadivelu,GENERATE_IN_CODE,GENERATE_IN_CODE,,,,,null,400,Bad Request
+POST,CreateNewUser,Last name empty,uap/createusers,,Srividya,"""""",GENERATE_IN_CODE,GENERATE_IN_CODE,,,,,null,400,Bad Request
+POST,CreateNewUser,Last name non alphabet value,uap/createusers,,Srividya,Sundaravadivelu$,GENERATE_IN_CODE,GENERATE_IN_CODE,,,,,null,400,Bad Request
+POST,CreateNewUser,Email id empty,uap/createusers,,Srividya,Sundaravadivelu,"""""",GENERATE_IN_CODE,,,,,null,400,Bad Request
+POST,CreateNewUser,Email id invalid,uap/createusers,,Srividya,Sundaravadivelu,abc@@abc.com,GENERATE_IN_CODE,,,,,null,400,Bad Request
+POST,CreateNewUser,Email id already exists,uap/createusers,,Srividya,Sundaravadivelu,Numpy@gmail.com,GENERATE_IN_CODE,,,,,null,409,Conflict
+POST,CreateNewUser,Contact number is null or empty,uap/createusers,,Srividya,Sundaravadivelu,GENERATE_IN_CODE,null,,,,,null,400,Bad Request
+POST,CreateNewUser,Contact number less than 10 numeric values,uap/createusers,,Srividya,Sundaravadivelu,GENERATE_IN_CODE,123,,,,,null,400,Bad Request
+POST,CreateNewUser,Contact number greater than 10 numeric values,uap/createusers,,Srividya,Sundaravadivelu,GENERATE_IN_CODE,1.23E+14,,,,,null,400,Bad Request
+POST,CreateNewUser,Contact number already exists,uap/createusers,,Srividya,Sundaravadivelu,GENERATE_IN_CODE,1234567891,,,,,null,409,Conflict
+POST,CreateNewUser,State non alphabet value,uap/createusers,,Srividya,Sundaravadivelu,GENERATE_IN_CODE,GENERATE_IN_CODE,,,$Illinois,,null,400,Bad Request
+POST,CreateNewUser,Country non alphabet value,uap/createusers,,Srividya,Sundaravadivelu,GENERATE_IN_CODE,GENERATE_IN_CODE,,,,$USA,null,400,Bad Request
+POST,CreateNewUser,Street non alphabet vaue,uap/createusers,,Srividya,Sundaravadivelu,GENERATE_IN_CODE,GENERATE_IN_CODE,$Waldo,,,,null,400,Bad Request
+POST,CreateNewUser,ZipCode non numeric values,uap/createusers,,Srividya,Sundaravadivelu,,GENERATE_IN_CODE,,,,,611ABC,400,Bad Request
+POST,CreateNewUser,invalid endpoint,uap/invalid,,,,,,,,,,,404,Not Found
+GET,GetUsers,Get all users - valid,uap/users,,,,,,,,,,,200,OK
+GET,GetUsers,Get all users - invalid endpoint,uap/invalid,,,,,,,,,,,404,HTTP/1.1 404
+GET,GetUserByID,Get user by id  - valid,uap/user,,,,,,,,,,,200,OK
+GET,GetUserByID,Get user by id- invalid endpoint,uap/invalid,,,,,,,,,,,404,Not Found
+GET,GetUserByInvalidID,Get user by id  - invalid,uap/user,-1,,,,,,,,,,404,Not Found
+GET,GetUserByFirstName,Get user by firstname - valid,uap/users/username,,,,,,,,,,,200,OK
+GET,GetUserByFirstName,Get user by firstname- invalid endpoint,uap/invalid,,,,,,,,,,,404,Not Found
+GET,GetUserByInvalidFirstName,Get user by firstname - invalid,uap/users/username,,InvalidFirstName,,,,,,,,,404,Not Found
+PUT,UpdateUser,Update all fields,uap/updateuser,,Srividya Updated,Sundaravadivelu Updated,GENERATE_IN_CODE,GENERATE_IN_CODE,Waldo Ave Updated,3-A,Illinois Updated,USA Updated,11111,200,OK
+PUT,UpdateUser,Revert previous fields  to original value,uap/updateuser,,Srividya,Sundaravadivelu,Team10Srividya2@gmail.com,GENERATE_IN_CODE,Waldo Ave,3-A,Illinois,USA,61115,200,OK
+PUT,UpdateUser,First name non alphabet value,uap/updateuser,,Srividya$,,,,,,,,,400,Bad Request
+PUT,UpdateUser,Last name non alphabet value,uap/updateuser,,,Sundaravadivelu$,,,,,,,,400,Bad Request
+PUT,UpdateUser,Email id invalid,uap/updateuser,,,,abc@@abc.com,,,,,,,400,Bad Request
+PUT,UpdateUser,Email id already exists,uap/updateuser,,,,Numpy@gmail.com,,,,,,,409,Conflict
+PUT,UpdateUser,First name is empty,uap/updateuser,,"""""",,,,,,,,,400,Bad Request
+PUT,UpdateUser,Last name is empty,uap/updateuser,,,"""""",,,,,,,,400,Bad Request
+PUT,UpdateUser,Contact number is empty,uap/updateuser,,,,,"""""",,,,,,400,Bad Request
+PUT,UpdateUser,Contact number less than 10 numeric values,uap/updateuser,,,,,123,,,,,,400,Bad Request
+PUT,UpdateUser,Contact number greater than 10 numeric values,uap/updateuser,,,,,1.23E+14,,,,,,400,Bad Request
+PUT,UpdateUser,Contact number already exists,uap/updateuser,,,,,1234567891,,,,,,400,Bad Request
+PUT,UpdateUser,State non alphabet value,uap/updateuser,,,,,,,,Illinois*,,,400,Bad Request
+PUT,UpdateUser,Country non alphabet value,uap/updateuser,,,,,,,,,USA*,,400,Bad Request
+PUT,UpdateUser,Street non alphabet vaue,uap/updateuser,,,,,,Waldo*,,,,,400,Bad Request
+PUT,UpdateUser,ZipCode non numeric values,uap/updateuser,,,,,,,,,,6!11$,400,Bad Request
+PUT,UpdateUser,Plot Number non alpha numeric,uap/updateuser,,,,,,,!ABC,,,,400,Bad Request
+PUT,UpdateUser,invalid endpoint,uap/invalid,,,,,,,,,,,404,Not Found
+DELETE,DeleteUserByID,Delete user by ID  generated in POST - valid,uap/deleteuser,,,,,,,,,,,200,OK
+DELETE,DeleteUserByID,Delete user by ID -invalid - already deleted user id,uap/deleteuser,,,,,,,,,,,404,Not Found
+DELETE,DeleteUserByID,invalid endpoint,uap/invalid,,,,,,,,,,,404,Not Found
+DELETE,DeleteUserByFirstName,Delete user by First name - valid,uap/deleteuser/username,,Deleteuser,,,,,,,,,200,OK
+DELETE,DeleteUserByFirstName,Delete user by First name  - invalid ,uap/deleteuser/username,,InvalidFirstName,,,,,,,,,404,Not Found
+DELETE,DeleteUserByFirstName,invalid endpoint,uap/invalid,,,,,,,,,,,404,Not Found

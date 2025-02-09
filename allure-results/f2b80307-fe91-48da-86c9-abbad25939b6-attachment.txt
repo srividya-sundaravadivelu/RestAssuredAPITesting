@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-02-09T18:40:25.152+00:00",
+    "status": 400,
+    "error": "Bad Request",
+    "path": "/uap/updateuser/19747"
+}

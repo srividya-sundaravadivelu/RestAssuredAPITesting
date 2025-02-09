@@ -1,0 +1,17 @@
+{
+    "userAddress": {
+        "addressId": 19714,
+        "plotNumber": "3-A",
+        "street": "Waldo Ave Updated",
+        "state": "Illinois Updated",
+        "country": "USA Updated",
+        "zipCode": 11111
+    },
+    "user_id": 19747,
+    "user_first_name": "Srividya Updated",
+    "user_last_name": "Sundaravadivelu Updated",
+    "user_contact_number": 8884240013,
+    "user_email_id": "pxjhyb10@gmail.com",
+    "creation_time": "2025-02-09T18:40:09.429+00:00",
+    "last_mod_time": "2025-02-09T18:40:18.197+00:00"
+}

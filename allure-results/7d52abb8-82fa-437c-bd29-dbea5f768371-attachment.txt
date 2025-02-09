@@ -1,0 +1,4 @@
+{
+    "status": "404 NOT_FOUND",
+    "message": "User does not exist with name 'InvalidFirstName'"
+}

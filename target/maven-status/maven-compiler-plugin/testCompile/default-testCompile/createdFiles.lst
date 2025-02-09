@@ -1,0 +1,13 @@
+models\User.class
+tests\UserTests.class
+utils\ConfigReader.class
+models\CustomFieldSerializer.class
+models\UserAddress.class
+utils\AllureHelper.class
+config\BaseTest.class
+utils\LogHelper.class
+dataproviders\CSVDataProvider.class
+utils\CSVReaderUtil.class
+utils\PhoneNumberGenerator.class
+filters\RequestResponseLoggingFilter.class
+utils\EmailGenerator.class

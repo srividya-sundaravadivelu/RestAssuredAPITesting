@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="48" passed="46" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-09T12:39:59 CST" name="Surefire suite" finished-at="2025-02-09T12:40:35 CST" duration-ms="36458">
+    <groups>
+    </groups>
+    <test started-at="2025-02-09T12:39:59 CST" name="Surefire test" finished-at="2025-02-09T12:40:35 CST" duration-ms="36458">
+      <class name="tests.UserTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:39:59 CST" name="setUp" finished-at="2025-02-09T12:40:00 CST" duration-ms="975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetUsers(java.util.Map)[pri:1, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:00 CST" name="testGetUsers" data-provider="getUsersData" finished-at="2025-02-09T12:40:07 CST" duration-ms="6785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=OK, RequestName=GetUsers, ﻿Method=GET, expected_status_code=200, userId=, Scenario=Get all users - valid, user_contact_number=, endpoint=uap/users, user_first_name=, user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:07 CST" name="tearDown" finished-at="2025-02-09T12:40:08 CST" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:08 CST" name="setUp" finished-at="2025-02-09T12:40:08 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetUsers(java.util.Map)[pri:1, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:08 CST" name="testGetUsers" data-provider="getUsersData" finished-at="2025-02-09T12:40:08 CST" duration-ms="462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=HTTP/1.1 404, RequestName=GetUsers, ﻿Method=GET, expected_status_code=404, userId=, Scenario=Get all users - invalid endpoint, user_contact_number=, endpoint=uap/invalid, user_first_name=, user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:08 CST" name="tearDown" finished-at="2025-02-09T12:40:08 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:08 CST" name="setUp" finished-at="2025-02-09T12:40:08 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateNewUser(java.util.Map)[pri:2, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:08 CST" name="testCreateNewUser" data-provider="createNewUserData" finished-at="2025-02-09T12:40:10 CST" duration-ms="1632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=USA, zipCode=61115, user_last_name=Deleteuser, expected_status_line=Created, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=201, userId=, Scenario=Create new user to use for delete, user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=Deleteuser, user_email_id=GENERATE_IN_CODE, street=Waldo Ave, plotNumber=3-A, state=Illinois}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:10 CST" name="tearDown" finished-at="2025-02-09T12:40:10 CST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:10 CST" name="setUp" finished-at="2025-02-09T12:40:10 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateNewUser(java.util.Map)[pri:2, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:10 CST" name="testCreateNewUser" data-provider="createNewUserData" finished-at="2025-02-09T12:40:11 CST" duration-ms="521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=USA, zipCode=61115, user_last_name=Sundaravadivelu, expected_status_line=Created, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=201, userId=, Scenario=Pass all fields  , user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=GENERATE_IN_CODE, street=Waldo Ave, plotNumber=3-A, state=Illinois}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:11 CST" name="tearDown" finished-at="2025-02-09T12:40:11 CST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:11 CST" name="setUp" finished-at="2025-02-09T12:40:11 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateNewUser(java.util.Map)[pri:2, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:11 CST" name="testCreateNewUser" data-provider="createNewUserData" finished-at="2025-02-09T12:40:11 CST" duration-ms="372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=null, user_last_name=Sundaravadivelu, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=First name empty, user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name="""""", user_email_id=GENERATE_IN_CODE, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:11 CST" name="tearDown" finished-at="2025-02-09T12:40:11 CST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:11 CST" name="setUp" finished-at="2025-02-09T12:40:11 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateNewUser(java.util.Map)[pri:2, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:11 CST" name="testCreateNewUser" data-provider="createNewUserData" finished-at="2025-02-09T12:40:11 CST" duration-ms="374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=null, user_last_name=Sundaravadivelu, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=First name non alphabet value, user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=Srividya$, user_email_id=GENERATE_IN_CODE, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:11 CST" name="tearDown" finished-at="2025-02-09T12:40:11 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:11 CST" name="setUp" finished-at="2025-02-09T12:40:11 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateNewUser(java.util.Map)[pri:2, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:11 CST" name="testCreateNewUser" data-provider="createNewUserData" finished-at="2025-02-09T12:40:12 CST" duration-ms="376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=null, user_last_name="""""", expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=Last name empty, user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=GENERATE_IN_CODE, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:12 CST" name="tearDown" finished-at="2025-02-09T12:40:12 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:12 CST" name="setUp" finished-at="2025-02-09T12:40:12 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateNewUser(java.util.Map)[pri:2, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:12 CST" name="testCreateNewUser" data-provider="createNewUserData" finished-at="2025-02-09T12:40:12 CST" duration-ms="381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=null, user_last_name=Sundaravadivelu$, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=Last name non alphabet value, user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=GENERATE_IN_CODE, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:12 CST" name="tearDown" finished-at="2025-02-09T12:40:12 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:12 CST" name="setUp" finished-at="2025-02-09T12:40:12 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateNewUser(java.util.Map)[pri:2, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:12 CST" name="testCreateNewUser" data-provider="createNewUserData" finished-at="2025-02-09T12:40:12 CST" duration-ms="381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=null, user_last_name=Sundaravadivelu, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=Email id empty, user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=Srividya, user_email_id="""""", street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:12 CST" name="tearDown" finished-at="2025-02-09T12:40:12 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:12 CST" name="setUp" finished-at="2025-02-09T12:40:12 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateNewUser(java.util.Map)[pri:2, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:12 CST" name="testCreateNewUser" data-provider="createNewUserData" finished-at="2025-02-09T12:40:13 CST" duration-ms="342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=null, user_last_name=Sundaravadivelu, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=Email id invalid, user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=abc@@abc.com, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:13 CST" name="tearDown" finished-at="2025-02-09T12:40:13 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:13 CST" name="setUp" finished-at="2025-02-09T12:40:13 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateNewUser(java.util.Map)[pri:2, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:13 CST" name="testCreateNewUser" data-provider="createNewUserData" finished-at="2025-02-09T12:40:13 CST" duration-ms="417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=null, user_last_name=Sundaravadivelu, expected_status_line=Conflict, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=409, userId=, Scenario=Email id already exists, user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=Numpy@gmail.com, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:13 CST" name="tearDown" finished-at="2025-02-09T12:40:13 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:13 CST" name="setUp" finished-at="2025-02-09T12:40:13 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateNewUser(java.util.Map)[pri:2, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:13 CST" name="testCreateNewUser" data-provider="createNewUserData" finished-at="2025-02-09T12:40:14 CST" duration-ms="357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=null, user_last_name=Sundaravadivelu, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=Contact number is null or empty, user_contact_number=null, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=GENERATE_IN_CODE, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:14 CST" name="tearDown" finished-at="2025-02-09T12:40:14 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:14 CST" name="setUp" finished-at="2025-02-09T12:40:14 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateNewUser(java.util.Map)[pri:2, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:14 CST" name="testCreateNewUser" data-provider="createNewUserData" finished-at="2025-02-09T12:40:14 CST" duration-ms="367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=null, user_last_name=Sundaravadivelu, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=Contact number less than 10 numeric values, user_contact_number=123, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=GENERATE_IN_CODE, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:14 CST" name="tearDown" finished-at="2025-02-09T12:40:14 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:14 CST" name="setUp" finished-at="2025-02-09T12:40:14 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateNewUser(java.util.Map)[pri:2, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:14 CST" name="testCreateNewUser" data-provider="createNewUserData" finished-at="2025-02-09T12:40:14 CST" duration-ms="369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=null, user_last_name=Sundaravadivelu, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=Contact number greater than 10 numeric values, user_contact_number=1.23E+14, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=GENERATE_IN_CODE, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:14 CST" name="tearDown" finished-at="2025-02-09T12:40:14 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:14 CST" name="setUp" finished-at="2025-02-09T12:40:14 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateNewUser(java.util.Map)[pri:2, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:14 CST" name="testCreateNewUser" data-provider="createNewUserData" finished-at="2025-02-09T12:40:15 CST" duration-ms="358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=null, user_last_name=Sundaravadivelu, expected_status_line=Conflict, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=409, userId=, Scenario=Contact number already exists, user_contact_number=1234567891, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=GENERATE_IN_CODE, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:15 CST" name="tearDown" finished-at="2025-02-09T12:40:15 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:15 CST" name="setUp" finished-at="2025-02-09T12:40:15 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateNewUser(java.util.Map)[pri:2, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:15 CST" name="testCreateNewUser" data-provider="createNewUserData" finished-at="2025-02-09T12:40:15 CST" duration-ms="374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=null, user_last_name=Sundaravadivelu, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=State non alphabet value, user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=GENERATE_IN_CODE, street=, plotNumber=, state=$Illinois}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:15 CST" name="tearDown" finished-at="2025-02-09T12:40:15 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:15 CST" name="setUp" finished-at="2025-02-09T12:40:15 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateNewUser(java.util.Map)[pri:2, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:15 CST" name="testCreateNewUser" data-provider="createNewUserData" finished-at="2025-02-09T12:40:15 CST" duration-ms="363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=$USA, zipCode=null, user_last_name=Sundaravadivelu, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=Country non alphabet value, user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=GENERATE_IN_CODE, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:15 CST" name="tearDown" finished-at="2025-02-09T12:40:15 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:15 CST" name="setUp" finished-at="2025-02-09T12:40:15 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateNewUser(java.util.Map)[pri:2, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:15 CST" name="testCreateNewUser" data-provider="createNewUserData" finished-at="2025-02-09T12:40:16 CST" duration-ms="394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=null, user_last_name=Sundaravadivelu, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=Street non alphabet vaue, user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=GENERATE_IN_CODE, street=$Waldo, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:16 CST" name="tearDown" finished-at="2025-02-09T12:40:16 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:16 CST" name="setUp" finished-at="2025-02-09T12:40:16 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateNewUser(java.util.Map)[pri:2, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:16 CST" name="testCreateNewUser" data-provider="createNewUserData" finished-at="2025-02-09T12:40:16 CST" duration-ms="381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=611ABC, user_last_name=Sundaravadivelu, expected_status_line=Bad Request, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=400, userId=, Scenario=ZipCode non numeric values, user_contact_number=GENERATE_IN_CODE, endpoint=uap/createusers, user_first_name=Srividya, user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:16 CST" name="tearDown" finished-at="2025-02-09T12:40:16 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:16 CST" name="setUp" finished-at="2025-02-09T12:40:16 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateNewUser(java.util.Map)[pri:2, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:16 CST" name="testCreateNewUser" data-provider="createNewUserData" finished-at="2025-02-09T12:40:17 CST" duration-ms="478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=Not Found, RequestName=CreateNewUser, ﻿Method=POST, expected_status_code=404, userId=, Scenario=invalid endpoint, user_contact_number=, endpoint=uap/invalid, user_first_name=, user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:17 CST" name="tearDown" finished-at="2025-02-09T12:40:17 CST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:17 CST" name="setUp" finished-at="2025-02-09T12:40:17 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetUserById(java.util.Map)[pri:3, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:17 CST" name="testGetUserById" data-provider="getUserByIDData" finished-at="2025-02-09T12:40:17 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=OK, RequestName=GetUserByID, ﻿Method=GET, expected_status_code=200, userId=, Scenario=Get user by id  - valid, user_contact_number=, endpoint=uap/user, user_first_name=, user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserById -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:17 CST" name="tearDown" finished-at="2025-02-09T12:40:17 CST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:17 CST" name="setUp" finished-at="2025-02-09T12:40:17 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetUserById(java.util.Map)[pri:3, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:17 CST" name="testGetUserById" data-provider="getUserByIDData" finished-at="2025-02-09T12:40:18 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=Not Found, RequestName=GetUserByID, ﻿Method=GET, expected_status_code=404, userId=, Scenario=Get user by id- invalid endpoint, user_contact_number=, endpoint=uap/invalid, user_first_name=, user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserById -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:18 CST" name="tearDown" finished-at="2025-02-09T12:40:18 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:18 CST" name="setUp" finished-at="2025-02-09T12:40:18 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetUserByFirstName(java.util.Map)[pri:4, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:18 CST" name="testGetUserByFirstName" data-provider="getUserByFirstNameData" finished-at="2025-02-09T12:40:18 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=OK, RequestName=GetUserByFirstName, ﻿Method=GET, expected_status_code=200, userId=, Scenario=Get user by firstname - valid, user_contact_number=, endpoint=uap/users/username, user_first_name=, user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByFirstName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:18 CST" name="tearDown" finished-at="2025-02-09T12:40:18 CST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:18 CST" name="setUp" finished-at="2025-02-09T12:40:18 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetUserByFirstName(java.util.Map)[pri:4, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:18 CST" name="testGetUserByFirstName" data-provider="getUserByFirstNameData" finished-at="2025-02-09T12:40:18 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=Not Found, RequestName=GetUserByFirstName, ﻿Method=GET, expected_status_code=404, userId=, Scenario=Get user by firstname- invalid endpoint, user_contact_number=, endpoint=uap/invalid, user_first_name=, user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByFirstName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:18 CST" name="tearDown" finished-at="2025-02-09T12:40:18 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:18 CST" name="setUp" finished-at="2025-02-09T12:40:18 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateUser(java.util.Map)[pri:5, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:18 CST" name="testUpdateUser" data-provider="updateUserData" finished-at="2025-02-09T12:40:19 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=USA Updated, zipCode=11111, user_last_name=Sundaravadivelu Updated, expected_status_line=OK, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=200, userId=, Scenario=Update all fields, user_contact_number=GENERATE_IN_CODE, endpoint=uap/updateuser, user_first_name=Srividya Updated, user_email_id=GENERATE_IN_CODE, street=Waldo Ave Updated, plotNumber=3-A, state=Illinois Updated}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:19 CST" name="tearDown" finished-at="2025-02-09T12:40:19 CST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:19 CST" name="setUp" finished-at="2025-02-09T12:40:19 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateUser(java.util.Map)[pri:5, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:19 CST" name="testUpdateUser" data-provider="updateUserData" finished-at="2025-02-09T12:40:20 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="994" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=USA, zipCode=61115, user_last_name=Sundaravadivelu, expected_status_line=OK, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=200, userId=, Scenario=Revert previous fields  to original value, user_contact_number=GENERATE_IN_CODE, endpoint=uap/updateuser, user_first_name=Srividya, user_email_id=Team10Srividya2@gmail.com, street=Waldo Ave, plotNumber=3-A, state=Illinois}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <500>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <500>.
+
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at tests.UserTests.testUpdateUser(UserTests.java:223)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:20 CST" name="tearDown" finished-at="2025-02-09T12:40:20 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:20 CST" name="setUp" finished-at="2025-02-09T12:40:20 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateUser(java.util.Map)[pri:5, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:20 CST" name="testUpdateUser" data-provider="updateUserData" finished-at="2025-02-09T12:40:21 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=First name non alphabet value, user_contact_number=, endpoint=uap/updateuser, user_first_name=Srividya$, user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:21 CST" name="tearDown" finished-at="2025-02-09T12:40:21 CST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:21 CST" name="setUp" finished-at="2025-02-09T12:40:21 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateUser(java.util.Map)[pri:5, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:21 CST" name="testUpdateUser" data-provider="updateUserData" finished-at="2025-02-09T12:40:22 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=Sundaravadivelu$, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=Last name non alphabet value, user_contact_number=, endpoint=uap/updateuser, user_first_name=, user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:22 CST" name="tearDown" finished-at="2025-02-09T12:40:22 CST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:22 CST" name="setUp" finished-at="2025-02-09T12:40:22 CST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateUser(java.util.Map)[pri:5, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:22 CST" name="testUpdateUser" data-provider="updateUserData" finished-at="2025-02-09T12:40:23 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=Email id invalid, user_contact_number=, endpoint=uap/updateuser, user_first_name=, user_email_id=abc@@abc.com, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:23 CST" name="tearDown" finished-at="2025-02-09T12:40:23 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:23 CST" name="setUp" finished-at="2025-02-09T12:40:23 CST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateUser(java.util.Map)[pri:5, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:23 CST" name="testUpdateUser" data-provider="updateUserData" finished-at="2025-02-09T12:40:24 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="829" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=Conflict, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=409, userId=, Scenario=Email id already exists, user_contact_number=, endpoint=uap/updateuser, user_first_name=, user_email_id=Numpy@gmail.com, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <409> but was <500>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <409> but was <500>.
+
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at tests.UserTests.testUpdateUser(UserTests.java:223)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:24 CST" name="tearDown" finished-at="2025-02-09T12:40:24 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:24 CST" name="setUp" finished-at="2025-02-09T12:40:24 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateUser(java.util.Map)[pri:5, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:24 CST" name="testUpdateUser" data-provider="updateUserData" finished-at="2025-02-09T12:40:25 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=First name is empty, user_contact_number=, endpoint=uap/updateuser, user_first_name="""""", user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:25 CST" name="tearDown" finished-at="2025-02-09T12:40:25 CST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:25 CST" name="setUp" finished-at="2025-02-09T12:40:25 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateUser(java.util.Map)[pri:5, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:25 CST" name="testUpdateUser" data-provider="updateUserData" finished-at="2025-02-09T12:40:25 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name="""""", expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=Last name is empty, user_contact_number=, endpoint=uap/updateuser, user_first_name=, user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:25 CST" name="tearDown" finished-at="2025-02-09T12:40:25 CST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:25 CST" name="setUp" finished-at="2025-02-09T12:40:25 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateUser(java.util.Map)[pri:5, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:25 CST" name="testUpdateUser" data-provider="updateUserData" finished-at="2025-02-09T12:40:26 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=Contact number is empty, user_contact_number="""""", endpoint=uap/updateuser, user_first_name=, user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:26 CST" name="tearDown" finished-at="2025-02-09T12:40:26 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:26 CST" name="setUp" finished-at="2025-02-09T12:40:26 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateUser(java.util.Map)[pri:5, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:26 CST" name="testUpdateUser" data-provider="updateUserData" finished-at="2025-02-09T12:40:27 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=Contact number less than 10 numeric values, user_contact_number=123, endpoint=uap/updateuser, user_first_name=, user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:27 CST" name="tearDown" finished-at="2025-02-09T12:40:27 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:27 CST" name="setUp" finished-at="2025-02-09T12:40:27 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateUser(java.util.Map)[pri:5, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:27 CST" name="testUpdateUser" data-provider="updateUserData" finished-at="2025-02-09T12:40:28 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=Contact number greater than 10 numeric values, user_contact_number=1.23E+14, endpoint=uap/updateuser, user_first_name=, user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:28 CST" name="tearDown" finished-at="2025-02-09T12:40:28 CST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:28 CST" name="setUp" finished-at="2025-02-09T12:40:28 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateUser(java.util.Map)[pri:5, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:28 CST" name="testUpdateUser" data-provider="updateUserData" finished-at="2025-02-09T12:40:28 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=Contact number already exists, user_contact_number=1234567891, endpoint=uap/updateuser, user_first_name=, user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:29 CST" name="tearDown" finished-at="2025-02-09T12:40:29 CST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:29 CST" name="setUp" finished-at="2025-02-09T12:40:29 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateUser(java.util.Map)[pri:5, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:29 CST" name="testUpdateUser" data-provider="updateUserData" finished-at="2025-02-09T12:40:29 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=State non alphabet value, user_contact_number=, endpoint=uap/updateuser, user_first_name=, user_email_id=, street=, plotNumber=, state=Illinois*}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:29 CST" name="tearDown" finished-at="2025-02-09T12:40:29 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:29 CST" name="setUp" finished-at="2025-02-09T12:40:29 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateUser(java.util.Map)[pri:5, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:29 CST" name="testUpdateUser" data-provider="updateUserData" finished-at="2025-02-09T12:40:30 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=USA*, zipCode=, user_last_name=, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=Country non alphabet value, user_contact_number=, endpoint=uap/updateuser, user_first_name=, user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:30 CST" name="tearDown" finished-at="2025-02-09T12:40:30 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:30 CST" name="setUp" finished-at="2025-02-09T12:40:30 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateUser(java.util.Map)[pri:5, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:30 CST" name="testUpdateUser" data-provider="updateUserData" finished-at="2025-02-09T12:40:31 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=Street non alphabet vaue, user_contact_number=, endpoint=uap/updateuser, user_first_name=, user_email_id=, street=Waldo*, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:31 CST" name="tearDown" finished-at="2025-02-09T12:40:31 CST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:31 CST" name="setUp" finished-at="2025-02-09T12:40:31 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateUser(java.util.Map)[pri:5, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:31 CST" name="testUpdateUser" data-provider="updateUserData" finished-at="2025-02-09T12:40:31 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=6!11$, user_last_name=, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=ZipCode non numeric values, user_contact_number=, endpoint=uap/updateuser, user_first_name=, user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:31 CST" name="tearDown" finished-at="2025-02-09T12:40:31 CST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:31 CST" name="setUp" finished-at="2025-02-09T12:40:31 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateUser(java.util.Map)[pri:5, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:31 CST" name="testUpdateUser" data-provider="updateUserData" finished-at="2025-02-09T12:40:32 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=Bad Request, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=400, userId=, Scenario=Plot Number non alpha numeric, user_contact_number=, endpoint=uap/updateuser, user_first_name=, user_email_id=, street=, plotNumber=!ABC, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:32 CST" name="tearDown" finished-at="2025-02-09T12:40:32 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:32 CST" name="setUp" finished-at="2025-02-09T12:40:32 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateUser(java.util.Map)[pri:5, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:32 CST" name="testUpdateUser" data-provider="updateUserData" finished-at="2025-02-09T12:40:33 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=Not Found, RequestName=UpdateUser, ﻿Method=PUT, expected_status_code=404, userId=, Scenario=invalid endpoint, user_contact_number=, endpoint=uap/invalid, user_first_name=, user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:33 CST" name="tearDown" finished-at="2025-02-09T12:40:33 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:33 CST" name="setUp" finished-at="2025-02-09T12:40:33 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteUserById(java.util.Map)[pri:6, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:33 CST" name="testDeleteUserById" data-provider="deleteUserByIDData" finished-at="2025-02-09T12:40:33 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=OK, RequestName=DeleteUserByID, ﻿Method=DELETE, expected_status_code=200, userId=, Scenario=Delete user by ID  generated in POST - valid, user_contact_number=, endpoint=uap/deleteuser, user_first_name=, user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserById -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:33 CST" name="tearDown" finished-at="2025-02-09T12:40:33 CST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:33 CST" name="setUp" finished-at="2025-02-09T12:40:33 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteUserById(java.util.Map)[pri:6, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:33 CST" name="testDeleteUserById" data-provider="deleteUserByIDData" finished-at="2025-02-09T12:40:34 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=Not Found, RequestName=DeleteUserByID, ﻿Method=DELETE, expected_status_code=404, userId=, Scenario=Delete user by ID -invalid - already deleted user id, user_contact_number=, endpoint=uap/deleteuser, user_first_name=, user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserById -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:34 CST" name="tearDown" finished-at="2025-02-09T12:40:34 CST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:34 CST" name="setUp" finished-at="2025-02-09T12:40:34 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteUserById(java.util.Map)[pri:6, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:34 CST" name="testDeleteUserById" data-provider="deleteUserByIDData" finished-at="2025-02-09T12:40:34 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=Not Found, RequestName=DeleteUserByID, ﻿Method=DELETE, expected_status_code=404, userId=, Scenario=invalid endpoint, user_contact_number=, endpoint=uap/invalid, user_first_name=, user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserById -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:34 CST" name="tearDown" finished-at="2025-02-09T12:40:34 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:34 CST" name="setUp" finished-at="2025-02-09T12:40:34 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteUserByFirstName(java.util.Map)[pri:7, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:34 CST" name="testDeleteUserByFirstName" data-provider="deleteUserByFirstNameData" finished-at="2025-02-09T12:40:35 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=OK, RequestName=DeleteUserByFirstName, ﻿Method=DELETE, expected_status_code=200, userId=, Scenario=Delete user by First name - valid, user_contact_number=, endpoint=uap/deleteuser/username, user_first_name=Deleteuser, user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByFirstName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:35 CST" name="tearDown" finished-at="2025-02-09T12:40:35 CST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:35 CST" name="setUp" finished-at="2025-02-09T12:40:35 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteUserByFirstName(java.util.Map)[pri:7, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:35 CST" name="testDeleteUserByFirstName" data-provider="deleteUserByFirstNameData" finished-at="2025-02-09T12:40:35 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=Not Found, RequestName=DeleteUserByFirstName, ﻿Method=DELETE, expected_status_code=404, userId=, Scenario=Delete user by First name  - invalid , user_contact_number=, endpoint=uap/deleteuser/username, user_first_name=InvalidFirstName, user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByFirstName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:35 CST" name="tearDown" finished-at="2025-02-09T12:40:35 CST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:35 CST" name="setUp" finished-at="2025-02-09T12:40:35 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteUserByFirstName(java.util.Map)[pri:7, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:35 CST" name="testDeleteUserByFirstName" data-provider="deleteUserByFirstNameData" finished-at="2025-02-09T12:40:35 CST" depends-on-methods="tests.UserTests.testCreateNewUser" duration-ms="365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=, zipCode=, user_last_name=, expected_status_line=Not Found, RequestName=DeleteUserByFirstName, ﻿Method=DELETE, expected_status_code=404, userId=, Scenario=invalid endpoint, user_contact_number=, endpoint=uap/invalid, user_first_name=, user_email_id=, street=, plotNumber=, state=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByFirstName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserTests@55a147cc]" started-at="2025-02-09T12:40:35 CST" name="tearDown" finished-at="2025-02-09T12:40:35 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.UserTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
