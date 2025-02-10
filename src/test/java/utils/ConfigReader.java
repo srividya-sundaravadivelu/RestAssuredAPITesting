@@ -31,4 +31,8 @@ public class ConfigReader {
 	public static String getPassword() {
 		return properties.getProperty("password");
 	}
+	
+	public static String getCsvFile() {
+		return properties.getProperty("csvFile");
+	}
 }

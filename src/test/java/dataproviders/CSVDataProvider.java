@@ -3,6 +3,7 @@ package dataproviders;
 import org.testng.annotations.DataProvider;
 
 import utils.CSVReaderUtil;
+import utils.ConfigReader;
 
 import java.util.List;
 import java.util.Map;
@@ -48,7 +49,7 @@ public class CSVDataProvider {
     }
     // Method to filter data based on request name
     private Object[][] filterDataByRequestName(String requestName) {
-        List<Map<String, String>> allData = CSVReaderUtil.readCSVData("User_Data_Rest_Assured.csv");
+        List<Map<String, String>> allData = CSVReaderUtil.readCSVData(ConfigReader.getCsvFile());
 
         // Filter data by request name
         List<Map<String, String>> filteredData = allData.stream()
