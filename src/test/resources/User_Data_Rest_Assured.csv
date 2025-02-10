@@ -26,7 +26,7 @@ GET,GetUserByFirstName,Get user by firstname - valid,uap/users/username,,,,,,,,,
 GET,GetUserByFirstName,Get user by firstname- invalid endpoint,uap/invalid,,,,,,,,,,,404,Not Found
 GET,GetUserByInvalidFirstName,Get user by firstname - invalid,uap/users/username,,InvalidFirstName,,,,,,,,,404,Not Found
 PUT,UpdateUser,Update all fields,uap/updateuser,,Srividya Updated,Sundaravadivelu Updated,GENERATE_IN_CODE,GENERATE_IN_CODE,Waldo Ave Updated,3-A,Illinois Updated,USA Updated,11111,200,OK
-PUT,UpdateUser,Revert previous fields  to original value,uap/updateuser,,Srividya,Sundaravadivelu,Team10Srividya2@gmail.com,GENERATE_IN_CODE,Waldo Ave,3-A,Illinois,USA,61115,200,OK
+PUT,UpdateUser,Revert previous fields  to original value,uap/updateuser,,Srividya,Sundaravadivelu,Team10Srividya3@gmail.com,GENERATE_IN_CODE,Waldo Ave,3-A,Illinois,USA,61115,200,OK
 PUT,UpdateUser,First name non alphabet value,uap/updateuser,,Srividya$,,,,,,,,,400,Bad Request
 PUT,UpdateUser,Last name non alphabet value,uap/updateuser,,,Sundaravadivelu$,,,,,,,,400,Bad Request
 PUT,UpdateUser,Email id invalid,uap/updateuser,,,,abc@@abc.com,,,,,,,400,Bad Request
